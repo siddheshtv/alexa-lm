@@ -1,4 +1,4 @@
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, Form
 from sqlalchemy.orm import Session
 from pydantic import BaseModel
 from typing import Optional
@@ -62,35 +62,76 @@ async def get_listening_paragraph(request: ListeningRequest, db: Session = Depen
         question_5=paragraph.question5
     )
 
+# @router.post("/check_answer/")
+# async def check_answer(request: AnswerCheck, db: Session = Depends(get_db)):
+#     table_class = get_table_class(request.category)
+    
+#     if not table_class:
+#         raise HTTPException(status_code=400, detail="Invalid category")
+
+#     if request.category == "Listening":
+#         entry = db.query(table_class).filter(table_class.paragraph_id == request.paragraph_id).first()
+#         if not entry:
+#             raise HTTPException(status_code=404, detail="Paragraph not found")
+        
+#         question_number = request.question_id.split('-')[1]  # Assuming question_id format is 'Q001-1', 'Q001-2', etc.
+#         question_field = f"question{question_number}"
+#         answer_field = f"answer{question_number}"
+        
+#         if hasattr(entry, question_field) and hasattr(entry, answer_field):
+#             correct_answer = getattr(entry, answer_field)
+#             is_correct = request.answer.lower() == correct_answer.lower()
+#             return {"correct": is_correct, "correct_answer": correct_answer}
+#         else:
+#             raise HTTPException(status_code=404, detail="Question not found in the given paragraph")
+#     else:
+#         entry = db.query(table_class).filter(
+#             (table_class.question_id == request.question_id) & 
+#             (table_class.question_type == request.question_type)
+#         ).first()
+#         if not entry:
+#             raise HTTPException(status_code=404, detail="Question not found")
+        
+#         is_correct = entry.answer.lower() == request.answer.lower()
+#         return {"correct": is_correct, "correct_answer": entry.answer}
+
+
 @router.post("/check_answer/")
-async def check_answer(request: AnswerCheck, db: Session = Depends(get_db)):
-    table_class = get_table_class(request.category)
+async def check_answer(
+    paragraph_id: Optional[str] = Form(None),
+    question_id: str = Form(...),
+    answer: str = Form(...),
+    category: str = Form(...),
+    question_type: Optional[str] = Form(None),
+    db: Session = Depends(get_db)
+):
+    table_class = get_table_class(category)
     
     if not table_class:
         raise HTTPException(status_code=400, detail="Invalid category")
 
-    if request.category == "Listening":
-        entry = db.query(table_class).filter(table_class.paragraph_id == request.paragraph_id).first()
+    if category == "Listening":
+        entry = db.query(table_class).filter(table_class.paragraph_id == paragraph_id).first()
         if not entry:
             raise HTTPException(status_code=404, detail="Paragraph not found")
         
-        question_number = request.question_id.split('-')[1]  # Assuming question_id format is 'Q001-1', 'Q001-2', etc.
+        question_number = question_id.split('-')[1]  # Assuming question_id format is 'Q001-1', 'Q001-2', etc.
         question_field = f"question{question_number}"
         answer_field = f"answer{question_number}"
         
         if hasattr(entry, question_field) and hasattr(entry, answer_field):
             correct_answer = getattr(entry, answer_field)
-            is_correct = request.answer.lower() == correct_answer.lower()
+            is_correct = answer.lower() == correct_answer.lower()
             return {"correct": is_correct, "correct_answer": correct_answer}
         else:
             raise HTTPException(status_code=404, detail="Question not found in the given paragraph")
     else:
         entry = db.query(table_class).filter(
-            (table_class.question_id == request.question_id) & 
-            (table_class.question_type == request.question_type)
+            (table_class.question_id == question_id) & 
+            (table_class.question_type == question_type)
         ).first()
         if not entry:
             raise HTTPException(status_code=404, detail="Question not found")
         
-        is_correct = entry.answer.lower() == request.answer.lower()
+        is_correct = entry.answer.lower() == answer.lower()
         return {"correct": is_correct, "correct_answer": entry.answer}
