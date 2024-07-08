@@ -115,7 +115,7 @@ async def check_answer(
         if not entry:
             raise HTTPException(status_code=404, detail="Paragraph not found")
         
-        question_number = question_id.split('-')[1]  # Assuming question_id format is 'Q001-1', 'Q001-2', etc.
+        question_number = question_id.split('-')[1]
         question_field = f"question{question_number}"
         answer_field = f"answer{question_number}"
         
