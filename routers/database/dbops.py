@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from pydantic import BaseModel
 from typing import Optional
-
+from sqlalchemy.sql import func
 from database import get_db
 from models import Question, Listening
 
@@ -22,6 +22,37 @@ def get_table_class(category: str):
         return Question
     else:
         return None
+    
+class QuestionResponse(BaseModel):
+    question_id: str
+    question: str
+
+class ListeningResponse(BaseModel):
+    paragraph_id: str
+    paragraph: str
+    questions: list[QuestionResponse]
+
+class ListeningRequest(BaseModel):
+    pass
+
+@router.post("/get_listening_paragraph/", response_model=ListeningResponse)
+async def get_listening_paragraph(request: ListeningRequest, db: Session = Depends(get_db)):
+    paragraph = db.query(Listening).order_by(func.random()).first()
+    
+    if not paragraph:
+        raise HTTPException(status_code=404, detail="No listening paragraphs found")
+    
+    questions = [
+        QuestionResponse(question_id=f"Q{paragraph.paragraph_id}-{i}", 
+                         question=getattr(paragraph, f"question{i}"))
+        for i in range(1, 6)
+    ]
+    
+    return ListeningResponse(
+        paragraph_id=paragraph.paragraph_id,
+        paragraph=paragraph.paragraph,
+        questions=questions
+    )
 
 @router.post("/check_answer/")
 async def check_answer(request: AnswerCheck, db: Session = Depends(get_db)):
