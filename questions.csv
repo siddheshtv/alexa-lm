@@ -1,0 +1,81 @@
+question_id,question,question_type,age_range,answer,level
+5001,"What's five plus three?",math,5-8,8,easy
+5002,"Count by twos: two, four, six, what comes next?",math,5-8,8,easy
+5003,"If you have ten apples and eat four, how many are left?",math,5-8,6,easy
+5004,"What number comes between six and eight?",math,5-8,7,easy
+5005,"How many sides does a triangle have?",math,5-8,3,easy
+5006,"What's eight minus five?",math,5-8,3,easy
+5007,"What's half of six?",math,5-8,3,medium
+5008,"How many fingers do you have on one hand?",math,5-8,5,easy
+5009,"What's three times two?",math,5-8,6,medium
+5010,"How many hours are in a day?",math,5-8,24,medium
+5011,"What's twelve plus five?",math,8-10,17,medium
+5012,"If a square has four sides, how many sides do two squares have?",math,8-10,8,medium
+5013,"What's twenty minus seven?",math,8-10,13,medium
+5014,"How many cents are in a quarter?",math,8-10,25,medium
+5015,"What's six times four?",math,8-10,24,medium
+5016,"If you have a dollar and spend sixty cents, how much is left?",math,8-10,40 cents,hard
+5017,"What's forty-eight divided by six?",math,8-10,8,hard
+5018,"How many edges does a cube have?",math,8-10,12,hard
+5019,"What's fifteen plus twenty-six?",math,8-10,41,hard
+5020,"If three pencils cost sixty cents, how much does one pencil cost?",math,8-10,20 cents,hard
+5021,"What's the square root of sixty-four?",math,10-13,8,medium
+5022,"If x plus five equals twelve, what's x?",math,10-13,7,medium
+5023,"What's fifteen percent of two hundred?",math,10-13,30,medium
+5024,"What's the area of a rectangle with length eight and width five?",math,10-13,40,medium
+5025,"What's the sum of the angles in a triangle?",math,10-13,180 degrees,easy
+5026,"What's two to the power of six?",math,10-13,64,medium
+5027,"What's twenty percent of eighty?",math,10-13,16,easy
+5028,"If five shirts cost sixty dollars, how much do eight shirts cost?",math,10-13,96 dollars,medium
+5029,"What's the greatest common factor of forty-eight and seventy-two?",math,10-13,24,hard
+5030,"What's the probability of rolling an even number on a six-sided die?",math,10-13,one half,medium
+5031,"Solve for x: three x plus seven equals twenty-five",math,13-15,6,medium
+5032,"What's the volume of a cube with side length five?",math,13-15,125,hard
+5033,"Simplify: three squared plus four squared, all under a square root",math,13-15,5,hard
+5034,"What's the slope of a line passing through points (2,3) and (4,7)?",math,13-15,2,hard
+5035,"Solve for x: absolute value of x minus three equals seven",math,13-15,x equals 10 or -4,hard
+5036,"What's the area of a circle with diameter ten? Use 3.14 for pi.",math,13-15,78.5,hard
+5037,"Factorize: x squared minus nine",math,13-15,(x+3)(x-3),hard
+5038,"If f of x equals two x plus three, what's f of four?",math,13-15,11,medium
+5039,"What's the median of the numbers: 3, 7, 8, 9, 11, 15?",math,13-15,8.5,medium
+5040,"Simplify: two x squared plus three x minus two x squared plus five x",math,13-15,8x,hard
+6001,"Which word doesn't belong: cat, dog, fish, bird?",aptitude,5-8,fish,easy
+6002,"What comes next: circle, square, triangle, what shape?",aptitude,5-8,circle,easy
+6003,"If grass is green, what color is snow?",aptitude,5-8,white,easy
+6004,"What's the odd one out: apple, banana, carrot, orange?",aptitude,5-8,carrot,easy
+6005,"Which is heavier: a pound of feathers or a pound of rocks?",aptitude,5-8,They weigh the same,medium
+6006,"If you're facing north and turn right, which direction are you facing?",aptitude,5-8,east,medium
+6007,"What's the missing letter: A, C, E, G, what letter?",aptitude,5-8,I,medium
+6008,"What's the opposite of hot?",aptitude,5-8,cold,easy
+6009,"If 'book' is to 'read', 'food' is to what?",aptitude,5-8,eat,medium
+6010,"What month comes before July?",aptitude,5-8,June,easy
+6011,"What's the odd one out: car, bus, train, airplane?",aptitude,8-10,airplane,medium
+6012,"If water freezes at zero degrees Celsius, what happens at ten degrees?",aptitude,8-10,It remains liquid,medium
+6013,"What's the next number: one, one, two, three, five, what number?",aptitude,8-10,8,hard
+6014,"If you cut a square into four equal parts, what shape are the parts?",aptitude,8-10,square,medium
+6015,"What's the opposite of gigantic?",aptitude,8-10,tiny,medium
+6016,"How many legs do two ducks and three cows have in total?",aptitude,8-10,16,medium
+6017,"What's the odd one out: pencil, pen, eraser, notebook?",aptitude,8-10,eraser,medium
+6018,"What's the next number: two, four, eight, sixteen, what number?",aptitude,8-10,32,hard
+6019,"What's the missing word: The sun blank in the east and sets in the west.",aptitude,8-10,rises,medium
+6020,"What's the odd one out: Mercury, Earth, Jupiter, Sun?",aptitude,8-10,Sun,medium
+6021,"What comes next in the sequence: one, four, nine, sixteen, what number?",aptitude,10-13,25,medium
+6022,"Which word doesn't belong: photosynthesis, respiration, digestion, evaporation?",aptitude,10-13,evaporation,medium
+6023,"If a plane travels west from New York to Los Angeles, which direction will it fly to return?",aptitude,10-13,east,easy
+6024,"What's the odd one out: Mercury, Venus, Mars, Jupiter?",aptitude,10-13,Jupiter,medium
+6025,"Which number doesn't belong: two, three, five, seven, nine, eleven?",aptitude,10-13,9,medium
+6026,"What's the missing number: seven, twelve, nineteen, blank, thirty-nine?",aptitude,10-13,28,medium
+6027,"Which word is the opposite of frugal?",aptitude,10-13,extravagant,medium
+6028,"What comes after Spring, Summer, Autumn?",aptitude,10-13,Winter,easy
+6029,"If 'book' is to 'read', 'movie' is to what?",aptitude,10-13,watch,medium
+6030,"What's the next shape: circle, triangle, square, circle, triangle, what shape?",aptitude,10-13,square,medium
+6031,"If GOLD is coded as IQNF, how is SILVER coded?",aptitude,13-15,UKNXGT,hard
+6032,"What's the next letter in the sequence: A, C, F, J, what letter?",aptitude,13-15,O,hard
+6033,"If all Blips are Blops, and no Blops are Blaps, then what can we conclude?",aptitude,13-15,No Blips are Blaps,hard
+6034,"If you rearrange the letters 'CIFAIPC', you get the name of what?",aptitude,13-15,Pacific,medium
+6035,"If 'SYSTEM' is coded as 'XAXUFN', how is 'RANDOM' coded?",aptitude,13-15,TCPFQO,hard
+6036,"If it takes 6 people 3 hours to paint a fence, how long would it take 9 people?",aptitude,13-15,2 hours,hard
+6037,"What's the odd one out: DNA, RNA, ATP, Protein?",aptitude,13-15,ATP,hard
+6038,"If you're facing southwest and turn 90 degrees clockwise, which direction are you facing?",aptitude,13-15,northwest,hard
+6039,"If 'EARTH' is '51' and 'MERCURY' is '101', what is 'JUPITER'?",aptitude,13-15,112,hard
+6040,"If a clock shows 2:50, what's the approximate angle between the hour and minute hands?",aptitude,13-15,85 degrees,hard
