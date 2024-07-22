@@ -108,30 +108,30 @@ class QuestionResponse(BaseModel):
     question_3: Optional[str] = None
     question_type_3: Optional[str] = None
 
-class QuestionsRequest(BaseModel):
-    feedback: Optional[int] = None
-    question_type: str
-    age_range: str
-
 @router.post("/get_questions/", response_model=QuestionResponse)
-async def get_questions(request: QuestionsRequest, db: Session = Depends(get_db)):
-    if request.feedback is not None:
-        if request.feedback == 3:
+async def get_questions(
+    question_type: str = Form(...),
+    age_range: str = Form(...),
+    feedback: Optional[int] = Form(None),
+    db: Session = Depends(get_db)
+):
+    if feedback is not None:
+        if feedback == 3:
             level = "hard"
-        elif request.feedback == 0:
+        elif feedback == 0:
             level = "easy"
         else:
             level = "medium"
     else:
         level = "medium"
 
-    if request.question_type not in ["math", "aptitude"]:
+    if question_type not in ["math", "aptitude"]:
         raise HTTPException(status_code=400, detail="Invalid question type. Must be 'math' or 'aptitude'")
 
     questions = db.query(Question).filter(
         Question.level == level,
-        Question.question_type == request.question_type,
-        Question.age_range == request.age_range
+        Question.question_type == question_type,
+        Question.age_range == age_range
     ).order_by(func.random()).limit(3).all()
 
     response = QuestionResponse()
@@ -141,6 +141,7 @@ async def get_questions(request: QuestionsRequest, db: Session = Depends(get_db)
         setattr(response, f"question_type_{i}", q.question_type)
 
     return response
+
 
 @router.post("/check_answer/")
 async def check_answer(
