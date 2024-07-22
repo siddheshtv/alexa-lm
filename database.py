@@ -14,6 +14,8 @@ DATABASE_NAME = os.getenv("DATABASE_NAME")
 
 DATABASE_URL = f'{DATABASE_PREFIX}://{USERNAME}:{PASSWORD}@{HOST}/{DATABASE_NAME}'
 
+# DATABASE_URL = f'mysql+pymysql://sid:sample123@localhost/alexa_db'
+
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 

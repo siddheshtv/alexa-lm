@@ -96,6 +96,52 @@ async def get_listening_paragraph(request: ListeningRequest, db: Session = Depen
 #         return {"correct": is_correct, "correct_answer": entry.answer}
 
 
+
+class QuestionResponse(BaseModel):
+    question_id_1: Optional[str] = None
+    question_1: Optional[str] = None
+    question_type_1: Optional[str] = None
+    question_id_2: Optional[str] = None
+    question_2: Optional[str] = None
+    question_type_2: Optional[str] = None
+    question_id_3: Optional[str] = None
+    question_3: Optional[str] = None
+    question_type_3: Optional[str] = None
+
+class QuestionsRequest(BaseModel):
+    feedback: Optional[int] = None
+    question_type: str
+    age_range: str
+
+@router.post("/get_questions/", response_model=QuestionResponse)
+async def get_questions(request: QuestionsRequest, db: Session = Depends(get_db)):
+    if request.feedback is not None:
+        if request.feedback == 3:
+            level = "hard"
+        elif request.feedback == 0:
+            level = "easy"
+        else:
+            level = "medium"
+    else:
+        level = "medium"
+
+    if request.question_type not in ["math", "aptitude"]:
+        raise HTTPException(status_code=400, detail="Invalid question type. Must be 'math' or 'aptitude'")
+
+    questions = db.query(Question).filter(
+        Question.level == level,
+        Question.question_type == request.question_type,
+        Question.age_range == request.age_range
+    ).order_by(func.random()).limit(3).all()
+
+    response = QuestionResponse()
+    for i, q in enumerate(questions, 1):
+        setattr(response, f"question_id_{i}", q.question_id)
+        setattr(response, f"question_{i}", q.question)
+        setattr(response, f"question_type_{i}", q.question_type)
+
+    return response
+
 @router.post("/check_answer/")
 async def check_answer(
     paragraph_id: Optional[str] = Form(None),
