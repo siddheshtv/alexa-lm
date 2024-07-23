@@ -95,21 +95,17 @@ async def get_listening_paragraph(request: ListeningRequest, db: Session = Depen
 #         is_correct = entry.answer.lower() == request.answer.lower()
 #         return {"correct": is_correct, "correct_answer": entry.answer}
 
-class FeedbackRequest(BaseModel):
-    answers: list[bool]
-
-    @validator('answers')
-    def must_be_three_answers(cls, v):
-        if len(v) != 3:
-            raise ValueError('Must provide exactly 3 boolean values')
-        return v
-
 class FeedbackResponse(BaseModel):
     feedback: int
 
 @router.post("/calculate_feedback/", response_model=FeedbackResponse)
-async def calculate_feedback(request: FeedbackRequest):
-    correct_count = sum(request.answers)
+async def calculate_feedback(
+    answer1: bool = Form(...),
+    answer2: bool = Form(...),
+    answer3: bool = Form(...)
+):
+    answers = [answer1, answer2, answer3]
+    correct_count = sum(answers)
 
     if correct_count == 3:
         feedback = 3
