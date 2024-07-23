@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Depends, HTTPException, Form
 from sqlalchemy.orm import Session
-from pydantic import BaseModel
+from pydantic import BaseModel, validator
 from typing import Optional
 from sqlalchemy.sql import func
 from database import get_db
@@ -95,7 +95,32 @@ async def get_listening_paragraph(request: ListeningRequest, db: Session = Depen
 #         is_correct = entry.answer.lower() == request.answer.lower()
 #         return {"correct": is_correct, "correct_answer": entry.answer}
 
+class FeedbackRequest(BaseModel):
+    answers: list[bool]
 
+    @validator('answers')
+    def must_be_three_answers(cls, v):
+        if len(v) != 3:
+            raise ValueError('Must provide exactly 3 boolean values')
+        return v
+
+class FeedbackResponse(BaseModel):
+    feedback: int
+
+@router.post("/calculate_feedback/", response_model=FeedbackResponse)
+async def calculate_feedback(request: FeedbackRequest):
+    correct_count = sum(request.answers)
+
+    if correct_count == 3:
+        feedback = 3
+    elif correct_count == 2:
+        feedback = 2
+    elif correct_count == 1:
+        feedback = 1
+    else:
+        feedback = 0
+
+    return FeedbackResponse(feedback=feedback)
 
 class QuestionResponse(BaseModel):
     question_id_1: Optional[str] = None
