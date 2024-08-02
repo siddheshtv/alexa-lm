@@ -1,44 +1,44 @@
 question_id,question,question_type,age_range,answer,level
-5001,"What's five plus three?",math,5-8,8,easy
-5002,"Count by twos: two, four, six, what comes next?",math,5-8,8,easy
-5003,"If you have ten apples and eat four, how many are left?",math,5-8,6,easy
-5004,"What number comes between six and eight?",math,5-8,7,easy
-5005,"How many sides does a triangle have?",math,5-8,3,easy
-5006,"What's eight minus five?",math,5-8,3,easy
-5007,"What's half of six?",math,5-8,3,medium
-5008,"How many fingers do you have on one hand?",math,5-8,5,easy
-5009,"What's three times two?",math,5-8,6,medium
-5010,"How many hours are in a day?",math,5-8,24,medium
-5011,"What's twelve plus five?",math,8-10,17,medium
-5012,"If a square has four sides, how many sides do two squares have?",math,8-10,8,medium
-5013,"What's twenty minus seven?",math,8-10,13,medium
-5014,"How many cents are in a quarter?",math,8-10,25,medium
-5015,"What's six times four?",math,8-10,24,medium
-5016,"If you have a dollar and spend sixty cents, how much is left?",math,8-10,40 cents,hard
-5017,"What's forty-eight divided by six?",math,8-10,8,hard
-5018,"How many edges does a cube have?",math,8-10,12,hard
-5019,"What's fifteen plus twenty-six?",math,8-10,41,hard
-5020,"If three pencils cost sixty cents, how much does one pencil cost?",math,8-10,20 cents,hard
-5021,"What's the square root of sixty-four?",math,10-13,8,medium
-5022,"If x plus five equals twelve, what's x?",math,10-13,7,medium
-5023,"What's fifteen percent of two hundred?",math,10-13,30,medium
-5024,"What's the area of a rectangle with length eight and width five?",math,10-13,40,medium
-5025,"What's the sum of the angles in a triangle?",math,10-13,180 degrees,easy
-5026,"What's two to the power of six?",math,10-13,64,medium
-5027,"What's twenty percent of eighty?",math,10-13,16,easy
-5028,"If five shirts cost sixty dollars, how much do eight shirts cost?",math,10-13,96 dollars,medium
-5029,"What's the greatest common factor of forty-eight and seventy-two?",math,10-13,24,hard
-5030,"What's the probability of rolling an even number on a six-sided die?",math,10-13,one half,medium
-5031,"Solve for x: three x plus seven equals twenty-five",math,13-15,6,medium
-5032,"What's the volume of a cube with side length five?",math,13-15,125,hard
-5033,"Simplify: three squared plus four squared, all under a square root",math,13-15,5,hard
-5034,"What's the slope of a line passing through points (2,3) and (4,7)?",math,13-15,2,hard
-5035,"Solve for x: absolute value of x minus three equals seven",math,13-15,x equals 10 or -4,hard
-5036,"What's the area of a circle with diameter ten? Use 3.14 for pi.",math,13-15,78.5,hard
-5037,"Factorize: x squared minus nine",math,13-15,(x+3)(x-3),hard
-5038,"If f of x equals two x plus three, what's f of four?",math,13-15,11,medium
-5039,"What's the median of the numbers: 3, 7, 8, 9, 11, 15?",math,13-15,8.5,medium
-5040,"Simplify: two x squared plus three x minus two x squared plus five x",math,13-15,8x,hard
+5001,"What's five plus three? A. 7 B. 8 C. 9",math,5-8,option B,easy
+5002,"Count by twos: two, four, six, what comes next? A. 7 B. 8 C. 10",math,5-8,option B,easy
+5003,"If you have ten apples and eat four, how many are left? A. 5 B. 6 C. 7",math,5-8,option B,easy
+5004,"What number comes between six and eight? A. 5 B. 7 C. 9",math,5-8,option B,easy
+5005,"How many sides does a triangle have? A. 2 B. 3 C. 4",math,5-8,option B,easy
+5006,"What's eight minus five? A. 2 B. 3 C. 4",math,5-8,option B,easy
+5007,"What's half of six? A. 2 B. 3 C. 4",math,5-8,option B,medium
+5008,"How many fingers do you have on one hand? A. 4 B. 5 C. 6",math,5-8,option B,easy
+5009,"What's three times two? A. 5 B. 6 C. 7",math,5-8,option B,medium
+5010,"How many hours are in a day? A. 12 B. 24 C. 36",math,5-8,option B,medium
+5011,"What's twelve plus five? A. 15 B. 16 C. 17",math,5-8,option C,medium
+5012,"If a square has four sides, how many sides do two squares have? A. 6 B. 8 C. 10",math,5-8,option B,medium
+5013,"What's twenty minus seven? A. 11 B. 12 C. 13",math,5-8,option C,medium
+5014,"How many cents are in a quarter? A. 20 B. 25 C. 30",math,5-8,option B,medium
+5015,"What's six times four? A. 22 B. 24 C. 26",math,5-8,option B,medium
+5016,"If you have a dollar and spend sixty cents, how much is left? A. 30 cents B. 40 cents C. 50 cents",math,5-8,option B,hard
+5017,"What's forty-eight divided by six? A. 6 B. 7 C. 8",math,5-8,option C,hard
+5018,"How many edges does a cube have? A. 8 B. 10 C. 12",math,5-8,option C,hard
+5019,"What's fifteen plus twenty-six? A. 39 B. 40 C. 41",math,5-8,option C,hard
+5020,"If three pencils cost sixty cents, how much does one pencil cost? A. 15 cents B. 20 cents C. 25 cents",math,5-8,option B,hard
+5021,"What's the square root of sixty-four? A. 6 B. 7 C. 8",math,5-8,option C,medium
+5022,"If x plus five equals twelve, what's x? A. 6 B. 7 C. 8",math,5-8,option B,medium
+5023,"What's fifteen percent of two hundred? A. 25 B. 30 C. 35",math,5-8,option B,medium
+5024,"What's the area of a rectangle with length eight and width five? A. 35 B. 40 C. 45",math,5-8,option B,medium
+5025,"What's the sum of the angles in a triangle? A. 90 degrees B. 180 degrees C. 270 degrees",math,5-8,option B,easy
+5026,"What's two to the power of six? A. 32 B. 64 C. 128",math,5-8,option B,medium
+5027,"What's twenty percent of eighty? A. 14 B. 16 C. 18",math,5-8,option B,easy
+5028,"If five shirts cost sixty dollars, how much do eight shirts cost? A. 86 dollars B. 96 dollars C. 106 dollars",math,5-8,option B,medium
+5029,"What's the greatest common factor of forty-eight and seventy-two? A. 12 B. 18 C. 24",math,5-8,option C,hard
+5030,"What's the probability of rolling an even number on a six-sided die? A. one third B. one half C. two thirds",math,5-8,option B,medium
+5031,"Solve for x: three x plus seven equals twenty-five A. 5 B. 6 C. 7",math,13-15,option B,medium
+5032,"What's the volume of a cube with side length five? A. 100 B. 125 C. 150",math,13-15,option B,hard
+5033,"Simplify: three squared plus four squared, all under a square root A. 4 B. 5 C. 6",math,13-15,option B,hard
+5034,"What's the slope of a line passing through points (2,3) and (4,7)? A. 1 B. 2 C. 3",math,13-15,option B,hard
+5035,"Solve for x: absolute value of x minus three equals seven A. x equals 9 or -3 B. x equals 10 or -4 C. x equals 11 or -5",math,13-15,option B,hard
+5036,"What's the area of a circle with diameter ten? Use 3.14 for pi. A. 68.5 B. 78.5 C. 88.5",math,13-15,option B,hard
+5037,"Factorize: x squared minus nine A. (x+2)(x-2) B. (x+3)(x-3) C. (x+4)(x-4)",math,13-15,option B,hard
+5038,"If f of x equals two x plus three, what's f of four? A. 9 B. 10 C. 11",math,13-15,option C,medium
+5039,"What's the median of the numbers: 3, 7, 8, 9, 11, 15? A. 7.5 B. 8 C. 8.5",math,13-15,option C,medium
+5040,"Simplify: two x squared plus three x minus two x squared plus five x A. 6x B. 7x C. 8x",math,13-15,option C,hard
 6001,"Which word doesn't belong: cat, dog, fish, bird?",aptitude,5-8,fish,easy
 6002,"What comes next: circle, square, triangle, what shape?",aptitude,5-8,circle,easy
 6003,"If grass is green, what color is snow?",aptitude,5-8,white,easy
@@ -49,26 +49,26 @@ question_id,question,question_type,age_range,answer,level
 6008,"What's the opposite of hot?",aptitude,5-8,cold,easy
 6009,"If 'book' is to 'read', 'food' is to what?",aptitude,5-8,eat,medium
 6010,"What month comes before July?",aptitude,5-8,June,easy
-6011,"What's the odd one out: car, bus, train, airplane?",aptitude,8-10,airplane,medium
-6012,"If water freezes at zero degrees Celsius, what happens at ten degrees?",aptitude,8-10,It remains liquid,medium
-6013,"What's the next number: one, one, two, three, five, what number?",aptitude,8-10,8,hard
-6014,"If you cut a square into four equal parts, what shape are the parts?",aptitude,8-10,square,medium
-6015,"What's the opposite of gigantic?",aptitude,8-10,tiny,medium
-6016,"How many legs do two ducks and three cows have in total?",aptitude,8-10,16,medium
-6017,"What's the odd one out: pencil, pen, eraser, notebook?",aptitude,8-10,eraser,medium
-6018,"What's the next number: two, four, eight, sixteen, what number?",aptitude,8-10,32,hard
-6019,"What's the missing word: The sun blank in the east and sets in the west.",aptitude,8-10,rises,medium
-6020,"What's the odd one out: Mercury, Earth, Jupiter, Sun?",aptitude,8-10,Sun,medium
-6021,"What comes next in the sequence: one, four, nine, sixteen, what number?",aptitude,10-13,25,medium
-6022,"Which word doesn't belong: photosynthesis, respiration, digestion, evaporation?",aptitude,10-13,evaporation,medium
-6023,"If a plane travels west from New York to Los Angeles, which direction will it fly to return?",aptitude,10-13,east,easy
-6024,"What's the odd one out: Mercury, Venus, Mars, Jupiter?",aptitude,10-13,Jupiter,medium
-6025,"Which number doesn't belong: two, three, five, seven, nine, eleven?",aptitude,10-13,9,medium
-6026,"What's the missing number: seven, twelve, nineteen, blank, thirty-nine?",aptitude,10-13,28,medium
-6027,"Which word is the opposite of frugal?",aptitude,10-13,extravagant,medium
-6028,"What comes after Spring, Summer, Autumn?",aptitude,10-13,Winter,easy
-6029,"If 'book' is to 'read', 'movie' is to what?",aptitude,10-13,watch,medium
-6030,"What's the next shape: circle, triangle, square, circle, triangle, what shape?",aptitude,10-13,square,medium
+6011,"What's the odd one out: car, bus, train, airplane?",aptitude,5-8,airplane,medium
+6012,"If water freezes at zero degrees Celsius, what happens at ten degrees?",aptitude,5-8,It remains liquid,medium
+6013,"What's the next number: one, one, two, three, five, what number?",aptitude,5-8,8,hard
+6014,"If you cut a square into four equal parts, what shape are the parts?",aptitude,5-8,square,medium
+6015,"What's the opposite of gigantic?",aptitude,5-8,tiny,medium
+6016,"How many legs do two ducks and three cows have in total?",aptitude,5-8,16,medium
+6017,"What's the odd one out: pencil, pen, eraser, notebook?",aptitude,5-8,eraser,medium
+6018,"What's the next number: two, four, eight, sixteen, what number?",aptitude,5-8,32,hard
+6019,"What's the missing word: The sun blank in the east and sets in the west.",aptitude,5-8,rises,medium
+6020,"What's the odd one out: Mercury, Earth, Jupiter, Sun?",aptitude,5-8,Sun,medium
+6021,"What comes next in the sequence: one, four, nine, sixteen, what number?",aptitude,5-8,25,medium
+6022,"Which word doesn't belong: photosynthesis, respiration, digestion, evaporation?",aptitude,5-8,evaporation,medium
+6023,"If a plane travels west from New York to Los Angeles, which direction will it fly to return?",aptitude,5-8,east,easy
+6024,"What's the odd one out: Mercury, Venus, Mars, Jupiter?",aptitude,5-8,Jupiter,medium
+6025,"Which number doesn't belong: two, three, five, seven, nine, eleven?",aptitude,5-8,9,medium
+6026,"What's the missing number: seven, twelve, nineteen, blank, thirty-nine?",aptitude,5-8,28,medium
+6027,"Which word is the opposite of frugal?",aptitude,5-8,extravagant,medium
+6028,"What comes after Spring, Summer, Autumn?",aptitude,5-8,Winter,easy
+6029,"If 'book' is to 'read', 'movie' is to what?",aptitude,5-8,watch,medium
+6030,"What's the next shape: circle, triangle, square, circle, triangle, what shape?",aptitude,5-8,square,medium
 6031,"If GOLD is coded as IQNF, how is SILVER coded?",aptitude,13-15,UKNXGT,hard
 6032,"What's the next letter in the sequence: A, C, F, J, what letter?",aptitude,13-15,O,hard
 6033,"If all Blips are Blops, and no Blops are Blaps, then what can we conclude?",aptitude,13-15,No Blips are Blaps,hard

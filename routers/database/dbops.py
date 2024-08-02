@@ -122,12 +122,37 @@ class QuestionResponse(BaseModel):
     question_id_1: Optional[str] = None
     question_1: Optional[str] = None
     question_type_1: Optional[str] = None
+    age_range_1: Optional[str] = None
+    answer_1: Optional[str] = None
+    level_1: Optional[str] = None
+
     question_id_2: Optional[str] = None
     question_2: Optional[str] = None
     question_type_2: Optional[str] = None
+    age_range_2: Optional[str] = None
+    answer_2: Optional[str] = None
+    level_2: Optional[str] = None
+
     question_id_3: Optional[str] = None
     question_3: Optional[str] = None
     question_type_3: Optional[str] = None
+    age_range_3: Optional[str] = None
+    answer_3: Optional[str] = None
+    level_3: Optional[str] = None
+
+    question_id_4: Optional[str] = None
+    question_4: Optional[str] = None
+    question_type_4: Optional[str] = None
+    age_range_4: Optional[str] = None
+    answer_4: Optional[str] = None
+    level_4: Optional[str] = None
+
+    question_id_5: Optional[str] = None
+    question_5: Optional[str] = None
+    question_type_5: Optional[str] = None
+    age_range_5: Optional[str] = None
+    answer_5: Optional[str] = None
+    level_5: Optional[str] = None
 
 @router.post("/get_questions/", response_model=QuestionResponse)
 async def get_questions(
@@ -145,22 +170,25 @@ async def get_questions(
             level = "medium"
     else:
         level = "medium"
-
+    
     if question_type not in ["math", "aptitude"]:
         raise HTTPException(status_code=400, detail="Invalid question type. Must be 'math' or 'aptitude'")
-
+    
     questions = db.query(Question).filter(
         Question.level == level,
         Question.question_type == question_type,
         Question.age_range == age_range
-    ).order_by(func.random()).limit(3).all()
-
+    ).order_by(func.random()).limit(5).all()
+    
     response = QuestionResponse()
     for i, q in enumerate(questions, 1):
-        setattr(response, f"question_id_{i}", q.question_id)
+        setattr(response, f"question_id_{i}", str(q.question_id))
         setattr(response, f"question_{i}", q.question)
         setattr(response, f"question_type_{i}", q.question_type)
-
+        setattr(response, f"age_range_{i}", q.age_range)
+        setattr(response, f"answer_{i}", q.answer)
+        setattr(response, f"level_{i}", q.level)
+    
     return response
 
 
