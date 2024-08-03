@@ -39,43 +39,8 @@ question_id,question,question_type,age_range,answer,level
 5038,"If f of x equals two x plus three, what's f of four? A. 9 B. 10 C. 11",math,13-15,option C,medium
 5039,"What's the median of the numbers: 3, 7, 8, 9, 11, 15? A. 7.5 B. 8 C. 8.5",math,13-15,option C,medium
 5040,"Simplify: two x squared plus three x minus two x squared plus five x A. 6x B. 7x C. 8x",math,13-15,option C,hard
-6001,"Which word doesn't belong: cat, dog, fish, bird?",aptitude,5-8,fish,easy
-6002,"What comes next: circle, square, triangle, what shape?",aptitude,5-8,circle,easy
-6003,"If grass is green, what color is snow?",aptitude,5-8,white,easy
-6004,"What's the odd one out: apple, banana, carrot, orange?",aptitude,5-8,carrot,easy
-6005,"Which is heavier: a pound of feathers or a pound of rocks?",aptitude,5-8,They weigh the same,medium
-6006,"If you're facing north and turn right, which direction are you facing?",aptitude,5-8,east,medium
-6007,"What's the missing letter: A, C, E, G, what letter?",aptitude,5-8,I,medium
-6008,"What's the opposite of hot?",aptitude,5-8,cold,easy
-6009,"If 'book' is to 'read', 'food' is to what?",aptitude,5-8,eat,medium
-6010,"What month comes before July?",aptitude,5-8,June,easy
-6011,"What's the odd one out: car, bus, train, airplane?",aptitude,5-8,airplane,medium
-6012,"If water freezes at zero degrees Celsius, what happens at ten degrees?",aptitude,5-8,It remains liquid,medium
-6013,"What's the next number: one, one, two, three, five, what number?",aptitude,5-8,8,hard
-6014,"If you cut a square into four equal parts, what shape are the parts?",aptitude,5-8,square,medium
-6015,"What's the opposite of gigantic?",aptitude,5-8,tiny,medium
-6016,"How many legs do two ducks and three cows have in total?",aptitude,5-8,16,medium
-6017,"What's the odd one out: pencil, pen, eraser, notebook?",aptitude,5-8,eraser,medium
-6018,"What's the next number: two, four, eight, sixteen, what number?",aptitude,5-8,32,hard
-6019,"What's the missing word: The sun blank in the east and sets in the west.",aptitude,5-8,rises,medium
-6020,"What's the odd one out: Mercury, Earth, Jupiter, Sun?",aptitude,5-8,Sun,medium
-6021,"What comes next in the sequence: one, four, nine, sixteen, what number?",aptitude,5-8,25,medium
-6022,"Which word doesn't belong: photosynthesis, respiration, digestion, evaporation?",aptitude,5-8,evaporation,medium
-6023,"If a plane travels west from New York to Los Angeles, which direction will it fly to return?",aptitude,5-8,east,easy
-6024,"What's the odd one out: Mercury, Venus, Mars, Jupiter?",aptitude,5-8,Jupiter,medium
-6025,"Which number doesn't belong: two, three, five, seven, nine, eleven?",aptitude,5-8,9,medium
-6026,"What's the missing number: seven, twelve, nineteen, blank, thirty-nine?",aptitude,5-8,28,medium
-6027,"Which word is the opposite of frugal?",aptitude,5-8,extravagant,medium
-6028,"What comes after Spring, Summer, Autumn?",aptitude,5-8,Winter,easy
-6029,"If 'book' is to 'read', 'movie' is to what?",aptitude,5-8,watch,medium
-6030,"What's the next shape: circle, triangle, square, circle, triangle, what shape?",aptitude,5-8,square,medium
-6031,"If GOLD is coded as IQNF, how is SILVER coded?",aptitude,13-15,UKNXGT,hard
-6032,"What's the next letter in the sequence: A, C, F, J, what letter?",aptitude,13-15,O,hard
-6033,"If all Blips are Blops, and no Blops are Blaps, then what can we conclude?",aptitude,13-15,No Blips are Blaps,hard
-6034,"If you rearrange the letters 'CIFAIPC', you get the name of what?",aptitude,13-15,Pacific,medium
-6035,"If 'SYSTEM' is coded as 'XAXUFN', how is 'RANDOM' coded?",aptitude,13-15,TCPFQO,hard
-6036,"If it takes 6 people 3 hours to paint a fence, how long would it take 9 people?",aptitude,13-15,2 hours,hard
-6037,"What's the odd one out: DNA, RNA, ATP, Protein?",aptitude,13-15,ATP,hard
-6038,"If you're facing southwest and turn 90 degrees clockwise, which direction are you facing?",aptitude,13-15,northwest,hard
-6039,"If 'EARTH' is '51' and 'MERCURY' is '101', what is 'JUPITER'?",aptitude,13-15,112,hard
-6040,"If a clock shows 2:50, what's the approximate angle between the hour and minute hands?",aptitude,13-15,85 degrees,hard
+6001,"<speak>Which word doesn't belong?<break time='500ms'/>A: cat<break time='300ms'/>B: dog<break time='300ms'/>C: fish<break time='300ms'/>D: bird</speak>",aptitude,5-8,option C,easy
+6002,"<speak>What comes next: circle, square, triangle, what shape?<break time='500ms'/>A: rectangle<break time='300ms'/>B: circle<break time='300ms'/>C: pentagon</speak>",aptitude,5-8,option B,easy
+6003,"<speak>If grass is green, what color is snow?<break time='500ms'/>A: blue<break time='300ms'/>B: white<break time='300ms'/>C: gray</speak>",aptitude,5-8,option B,easy
+6004,"<speak>What's the odd one out?<break time='500ms'/>A: apple<break time='300ms'/>B: banana<break time='300ms'/>C: carrot<break time='300ms'/>D: orange</speak>",aptitude,5-8,option C,easy
+6005,"<speak>Which is heavier?<break time='500ms'/>A: a pound of feathers<break time='300ms'/>B: a pound of rocks<break time='300ms'/>C: They weigh the same</speak>",aptitude,5-8,option C,medium
