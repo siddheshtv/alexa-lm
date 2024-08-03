@@ -39,8 +39,13 @@ question_id,question,question_type,age_range,answer,level
 5038,"If f of x equals two x plus three, what's f of four? A. 9 B. 10 C. 11",math,13-15,option C,medium
 5039,"What's the median of the numbers: 3, 7, 8, 9, 11, 15? A. 7.5 B. 8 C. 8.5",math,13-15,option C,medium
 5040,"Simplify: two x squared plus three x minus two x squared plus five x A. 6x B. 7x C. 8x",math,13-15,option C,hard
-6001,"<speak>Which word doesn't belong?<break time='500ms'/>A: cat<break time='300ms'/>B: dog<break time='300ms'/>C: fish<break time='300ms'/>D: bird</speak>",aptitude,5-8,option C,easy
-6002,"<speak>What comes next: circle, square, triangle, what shape?<break time='500ms'/>A: rectangle<break time='300ms'/>B: circle<break time='300ms'/>C: pentagon</speak>",aptitude,5-8,option B,easy
-6003,"<speak>If grass is green, what color is snow?<break time='500ms'/>A: blue<break time='300ms'/>B: white<break time='300ms'/>C: gray</speak>",aptitude,5-8,option B,easy
-6004,"<speak>What's the odd one out?<break time='500ms'/>A: apple<break time='300ms'/>B: banana<break time='300ms'/>C: carrot<break time='300ms'/>D: orange</speak>",aptitude,5-8,option C,easy
-6005,"<speak>Which is heavier?<break time='500ms'/>A: a pound of feathers<break time='300ms'/>B: a pound of rocks<break time='300ms'/>C: They weigh the same</speak>",aptitude,5-8,option C,medium
+6001,"Which word doesn't belong: A) cat, B) dog, C) fish, D) bird?",aptitude,5-8,option C,easy
+6002,"What comes next: circle, square, triangle, what shape? A) rectangle, B) circle, C) pentagon",aptitude,5-8,option B,easy
+6003,"If grass is green, what color is snow? A) blue, B) white, C) gray",aptitude,5-8,option B,easy
+6004,"What's the odd one out: A) apple, B) banana, C) carrot, D) orange?",aptitude,5-8,option C,easy
+6005,"Which is heavier: A) a pound of feathers, B) a pound of rocks, C) They weigh the same?",aptitude,5-8,option C,medium
+6006,"If you're facing north and turn right, which direction are you facing? A) west, B) east, C) south",aptitude,5-8,option B,medium
+6007,"What's the missing letter: A, C, E, G, what letter? A) H, B) I, C) J",aptitude,5-8,option B,medium
+6008,"What's the opposite of hot? A) warm, B) cold, C) cool",aptitude,5-8,option B,easy
+6009,"If 'book' is to 'read', 'food' is to what? A) cook, B) eat, C) buy",aptitude,5-8,option B,medium
+6010,"What month comes before July? A) May, B) June, C) August",aptitude,5-8,option B,easy
