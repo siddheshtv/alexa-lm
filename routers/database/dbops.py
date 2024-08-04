@@ -169,7 +169,7 @@ async def get_questions(
         else:
             level = "medium"
     else:
-        level = "medium"
+        level = "easy"
     
     if question_type not in ["math", "aptitude"]:
         raise HTTPException(status_code=400, detail="Invalid question type. Must be 'math' or 'aptitude'")

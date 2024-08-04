@@ -5,47 +5,47 @@ question_id,question,question_type,age_range,answer,level
 5004,"What number comes between six and eight? A. 5 B. 7 C. 9",math,5-8,option B,easy
 5005,"How many sides does a triangle have? A. 2 B. 3 C. 4",math,5-8,option B,easy
 5006,"What's eight minus five? A. 2 B. 3 C. 4",math,5-8,option B,easy
-5007,"What's half of six? A. 2 B. 3 C. 4",math,5-8,option B,medium
+5007,"What's half of six? A. 2 B. 3 C. 4",math,5-8,option B,easy
 5008,"How many fingers do you have on one hand? A. 4 B. 5 C. 6",math,5-8,option B,easy
-5009,"What's three times two? A. 5 B. 6 C. 7",math,5-8,option B,medium
-5010,"How many hours are in a day? A. 12 B. 24 C. 36",math,5-8,option B,medium
-5011,"What's twelve plus five? A. 15 B. 16 C. 17",math,5-8,option C,medium
-5012,"If a square has four sides, how many sides do two squares have? A. 6 B. 8 C. 10",math,5-8,option B,medium
-5013,"What's twenty minus seven? A. 11 B. 12 C. 13",math,5-8,option C,medium
-5014,"How many cents are in a quarter? A. 20 B. 25 C. 30",math,5-8,option B,medium
-5015,"What's six times four? A. 22 B. 24 C. 26",math,5-8,option B,medium
+5009,"What's three times two? A. 5 B. 6 C. 7",math,5-8,option B,easy
+5010,"How many hours are in a day? A. 12 B. 24 C. 36",math,5-8,option B,easy
+5011,"What's twelve plus five? A. 15 B. 16 C. 17",math,5-8,option C,easy
+5012,"If a square has four sides, how many sides do two squares have? A. 6 B. 8 C. 10",math,5-8,option B,easy
+5013,"What's twenty minus seven? A. 11 B. 12 C. 13",math,5-8,option C,easy
+5014,"How many cents are in a quarter? A. 20 B. 25 C. 30",math,5-8,option B,easy
+5015,"What's six times four? A. 22 B. 24 C. 26",math,5-8,option B,easy
 5016,"If you have a dollar and spend sixty cents, how much is left? A. 30 cents B. 40 cents C. 50 cents",math,5-8,option B,hard
 5017,"What's forty-eight divided by six? A. 6 B. 7 C. 8",math,5-8,option C,hard
 5018,"How many edges does a cube have? A. 8 B. 10 C. 12",math,5-8,option C,hard
 5019,"What's fifteen plus twenty-six? A. 39 B. 40 C. 41",math,5-8,option C,hard
 5020,"If three pencils cost sixty cents, how much does one pencil cost? A. 15 cents B. 20 cents C. 25 cents",math,5-8,option B,hard
-5021,"What's the square root of sixty-four? A. 6 B. 7 C. 8",math,5-8,option C,medium
-5022,"If x plus five equals twelve, what's x? A. 6 B. 7 C. 8",math,5-8,option B,medium
-5023,"What's fifteen percent of two hundred? A. 25 B. 30 C. 35",math,5-8,option B,medium
-5024,"What's the area of a rectangle with length eight and width five? A. 35 B. 40 C. 45",math,5-8,option B,medium
+5021,"What's the square root of sixty-four? A. 6 B. 7 C. 8",math,5-8,option C,easy
+5022,"If x plus five equals twelve, what's x? A. 6 B. 7 C. 8",math,5-8,option B,easy
+5023,"What's fifteen percent of two hundred? A. 25 B. 30 C. 35",math,5-8,option B,easy
+5024,"What's the area of a rectangle with length eight and width five? A. 35 B. 40 C. 45",math,5-8,option B,easy
 5025,"What's the sum of the angles in a triangle? A. 90 degrees B. 180 degrees C. 270 degrees",math,5-8,option B,easy
-5026,"What's two to the power of six? A. 32 B. 64 C. 128",math,5-8,option B,medium
+5026,"What's two to the power of six? A. 32 B. 64 C. 128",math,5-8,option B,easy
 5027,"What's twenty percent of eighty? A. 14 B. 16 C. 18",math,5-8,option B,easy
-5028,"If five shirts cost sixty dollars, how much do eight shirts cost? A. 86 dollars B. 96 dollars C. 106 dollars",math,5-8,option B,medium
+5028,"If five shirts cost sixty dollars, how much do eight shirts cost? A. 86 dollars B. 96 dollars C. 106 dollars",math,5-8,option B,easy
 5029,"What's the greatest common factor of forty-eight and seventy-two? A. 12 B. 18 C. 24",math,5-8,option C,hard
-5030,"What's the probability of rolling an even number on a six-sided die? A. one third B. one half C. two thirds",math,5-8,option B,medium
-5031,"Solve for x: three x plus seven equals twenty-five A. 5 B. 6 C. 7",math,13-15,option B,medium
+5030,"What's the probability of rolling an even number on a six-sided die? A. one third B. one half C. two thirds",math,5-8,option B,easy
+5031,"Solve for x: three x plus seven equals twenty-five A. 5 B. 6 C. 7",math,13-15,option B,easy
 5032,"What's the volume of a cube with side length five? A. 100 B. 125 C. 150",math,13-15,option B,hard
 5033,"Simplify: three squared plus four squared, all under a square root A. 4 B. 5 C. 6",math,13-15,option B,hard
 5034,"What's the slope of a line passing through points (2,3) and (4,7)? A. 1 B. 2 C. 3",math,13-15,option B,hard
 5035,"Solve for x: absolute value of x minus three equals seven A. x equals 9 or -3 B. x equals 10 or -4 C. x equals 11 or -5",math,13-15,option B,hard
 5036,"What's the area of a circle with diameter ten? Use 3.14 for pi. A. 68.5 B. 78.5 C. 88.5",math,13-15,option B,hard
 5037,"Factorize: x squared minus nine A. (x+2)(x-2) B. (x+3)(x-3) C. (x+4)(x-4)",math,13-15,option B,hard
-5038,"If f of x equals two x plus three, what's f of four? A. 9 B. 10 C. 11",math,13-15,option C,medium
-5039,"What's the median of the numbers: 3, 7, 8, 9, 11, 15? A. 7.5 B. 8 C. 8.5",math,13-15,option C,medium
+5038,"If f of x equals two x plus three, what's f of four? A. 9 B. 10 C. 11",math,13-15,option C,easy
+5039,"What's the median of the numbers: 3, 7, 8, 9, 11, 15? A. 7.5 B. 8 C. 8.5",math,13-15,option C,easy
 5040,"Simplify: two x squared plus three x minus two x squared plus five x A. 6x B. 7x C. 8x",math,13-15,option C,hard
 6001,"Which word doesn't belong: A) cat, B) dog, C) fish, D) bird?",aptitude,5-8,option C,easy
 6002,"What comes next: circle, square, triangle, what shape? A) rectangle, B) circle, C) pentagon",aptitude,5-8,option B,easy
 6003,"If grass is green, what color is snow? A) blue, B) white, C) gray",aptitude,5-8,option B,easy
 6004,"What's the odd one out: A) apple, B) banana, C) carrot, D) orange?",aptitude,5-8,option C,easy
-6005,"Which is heavier: A) a pound of feathers, B) a pound of rocks, C) They weigh the same?",aptitude,5-8,option C,medium
-6006,"If you're facing north and turn right, which direction are you facing? A) west, B) east, C) south",aptitude,5-8,option B,medium
-6007,"What's the missing letter: A, C, E, G, what letter? A) H, B) I, C) J",aptitude,5-8,option B,medium
+6005,"Which is heavier: A) a pound of feathers, B) a pound of rocks, C) They weigh the same?",aptitude,5-8,option C,easy
+6006,"If you're facing north and turn right, which direction are you facing? A) west, B) east, C) south",aptitude,5-8,option B,easy
+6007,"What's the missing letter: A, C, E, G, what letter? A) H, B) I, C) J",aptitude,5-8,option B,easy
 6008,"What's the opposite of hot? A) warm, B) cold, C) cool",aptitude,5-8,option B,easy
-6009,"If 'book' is to 'read', 'food' is to what? A) cook, B) eat, C) buy",aptitude,5-8,option B,medium
+6009,"If 'book' is to 'read', 'food' is to what? A) cook, B) eat, C) buy",aptitude,5-8,option B,easy
 6010,"What month comes before July? A) May, B) June, C) August",aptitude,5-8,option B,easy
