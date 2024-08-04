@@ -1,30 +1,30 @@
 question_id,question,question_type,age_range,answer,level
 5001,"What's five plus three? A. 7 B. 8 C. 9",math,5-8,option B,easy
 5002,"Count by twos: two, four, six, what comes next? A. 7 B. 8 C. 10",math,5-8,option B,easy
-5003,"If you have ten apples and eat four, how many are left? A. 5 B. 6 C. 7",math,5-8,option B,easy
+5003,"If you have ten apples and eat four, how many are left? A. 5 B. 6 C. 7",math,5-8,option B,medium
 5004,"What number comes between six and eight? A. 5 B. 7 C. 9",math,5-8,option B,easy
 5005,"How many sides does a triangle have? A. 2 B. 3 C. 4",math,5-8,option B,easy
 5006,"What's eight minus five? A. 2 B. 3 C. 4",math,5-8,option B,easy
 5007,"What's half of six? A. 2 B. 3 C. 4",math,5-8,option B,easy
 5008,"How many fingers do you have on one hand? A. 4 B. 5 C. 6",math,5-8,option B,easy
 5009,"What's three times two? A. 5 B. 6 C. 7",math,5-8,option B,easy
-5010,"How many hours are in a day? A. 12 B. 24 C. 36",math,5-8,option B,easy
-5011,"What's twelve plus five? A. 15 B. 16 C. 17",math,5-8,option C,easy
+5010,"How many hours are in a day? A. 12 B. 24 C. 36",math,5-8,option B,medium
+5011,"What's twelve plus five? A. 15 B. 16 C. 17",math,5-8,option C,medium
 5012,"If a square has four sides, how many sides do two squares have? A. 6 B. 8 C. 10",math,5-8,option B,easy
-5013,"What's twenty minus seven? A. 11 B. 12 C. 13",math,5-8,option C,easy
-5014,"How many cents are in a quarter? A. 20 B. 25 C. 30",math,5-8,option B,easy
-5015,"What's six times four? A. 22 B. 24 C. 26",math,5-8,option B,easy
-5016,"If you have a dollar and spend sixty cents, how much is left? A. 30 cents B. 40 cents C. 50 cents",math,5-8,option B,hard
-5017,"What's forty-eight divided by six? A. 6 B. 7 C. 8",math,5-8,option C,hard
-5018,"How many edges does a cube have? A. 8 B. 10 C. 12",math,5-8,option C,hard
+5013,"What's twenty minus seven? A. 11 B. 12 C. 13",math,5-8,option C,medium
+5014,"How many cents are in a quarter? A. 20 B. 25 C. 30",math,5-8,option B,medium
+5015,"What's six times four? A. 22 B. 24 C. 26",math,5-8,option B,medium
+5016,"If you have a dollar and spend sixty cents, how much is left? A. 30 cents B. 40 cents C. 50 cents",math,5-8,option B,medium
+5017,"What's forty-eight divided by six? A. 6 B. 7 C. 8",math,5-8,option C,medium
+5018,"How many edges does a cube have? A. 8 B. 10 C. 12",math,5-8,option C,medium
 5019,"What's fifteen plus twenty-six? A. 39 B. 40 C. 41",math,5-8,option C,hard
 5020,"If three pencils cost sixty cents, how much does one pencil cost? A. 15 cents B. 20 cents C. 25 cents",math,5-8,option B,hard
 5021,"What's the square root of sixty-four? A. 6 B. 7 C. 8",math,5-8,option C,easy
 5022,"If x plus five equals twelve, what's x? A. 6 B. 7 C. 8",math,5-8,option B,easy
 5023,"What's fifteen percent of two hundred? A. 25 B. 30 C. 35",math,5-8,option B,easy
 5024,"What's the area of a rectangle with length eight and width five? A. 35 B. 40 C. 45",math,5-8,option B,easy
-5025,"What's the sum of the angles in a triangle? A. 90 degrees B. 180 degrees C. 270 degrees",math,5-8,option B,easy
-5026,"What's two to the power of six? A. 32 B. 64 C. 128",math,5-8,option B,easy
+5025,"What's the sum of the angles in a triangle? A. 90 degrees B. 180 degrees C. 270 degrees",math,5-8,option B,medium
+5026,"What's two to the power of six? A. 32 B. 64 C. 128",math,5-8,option B,medium
 5027,"What's twenty percent of eighty? A. 14 B. 16 C. 18",math,5-8,option B,easy
 5028,"If five shirts cost sixty dollars, how much do eight shirts cost? A. 86 dollars B. 96 dollars C. 106 dollars",math,5-8,option B,easy
 5029,"What's the greatest common factor of forty-eight and seventy-two? A. 12 B. 18 C. 24",math,5-8,option C,hard

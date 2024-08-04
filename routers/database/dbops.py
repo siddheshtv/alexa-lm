@@ -162,9 +162,9 @@ async def get_questions(
     db: Session = Depends(get_db)
 ):
     if feedback is not None:
-        if feedback == 3:
+        if feedback >= 4 :
             level = "hard"
-        elif feedback == 0:
+        elif feedback <= 2:
             level = "easy"
         else:
             level = "medium"
