@@ -26,19 +26,40 @@ def get_table_class(category: str):
 class ListeningResponse(BaseModel):
     paragraph_id: str
     paragraph: str
-    question_id_1: str
-    question_1: str
-    question_id_2: str
-    question_2: str
-    question_id_3: str
-    question_3: str
-    question_id_4: str
-    question_4: str
-    question_id_5: str
-    question_5: str
+    question_id1: str
+    question1: str
+    option_a1: str
+    option_b1: str
+    option_c1: str
+    answer1: str
+    question_id2: str
+    question2: str
+    option_a2: str
+    option_b2: str
+    option_c2: str
+    answer2: str
+    question_id3: str
+    question3: str
+    option_a3: str
+    option_b3: str
+    option_c3: str
+    answer3: str
+    question_id4: str
+    question4: str
+    option_a4: str
+    option_b4: str
+    option_c4: str
+    answer4: str
+    question_id5: str
+    question5: str
+    option_a5: str
+    option_b5: str
+    option_c5: str
+    answer5: str
 
 class ListeningRequest(BaseModel):
     pass
+
 
 @router.post("/get_listening_paragraph/", response_model=ListeningResponse)
 async def get_listening_paragraph(request: ListeningRequest, db: Session = Depends(get_db)):
@@ -50,16 +71,36 @@ async def get_listening_paragraph(request: ListeningRequest, db: Session = Depen
     return ListeningResponse(
         paragraph_id=paragraph.paragraph_id,
         paragraph=paragraph.paragraph,
-        question_id_1=f"Q{paragraph.paragraph_id}-1",
-        question_1=paragraph.question1,
-        question_id_2=f"Q{paragraph.paragraph_id}-2",
-        question_2=paragraph.question2,
-        question_id_3=f"Q{paragraph.paragraph_id}-3",
-        question_3=paragraph.question3,
-        question_id_4=f"Q{paragraph.paragraph_id}-4",
-        question_4=paragraph.question4,
-        question_id_5=f"Q{paragraph.paragraph_id}-5",
-        question_5=paragraph.question5
+        question_id1=paragraph.question_id1,
+        question1=paragraph.question1,
+        option_a1=paragraph.option_a1,
+        option_b1=paragraph.option_b1,
+        option_c1=paragraph.option_c1,
+        answer1=paragraph.answer1,
+        question_id2=paragraph.question_id2,
+        question2=paragraph.question2,
+        option_a2=paragraph.option_a2,
+        option_b2=paragraph.option_b2,
+        option_c2=paragraph.option_c2,
+        answer2=paragraph.answer2,
+        question_id3=paragraph.question_id3,
+        question3=paragraph.question3,
+        option_a3=paragraph.option_a3,
+        option_b3=paragraph.option_b3,
+        option_c3=paragraph.option_c3,
+        answer3=paragraph.answer3,
+        question_id4=paragraph.question_id4,
+        question4=paragraph.question4,
+        option_a4=paragraph.option_a4,
+        option_b4=paragraph.option_b4,
+        option_c4=paragraph.option_c4,
+        answer4=paragraph.answer4,
+        question_id5=paragraph.question_id5,
+        question5=paragraph.question5,
+        option_a5=paragraph.option_a5,
+        option_b5=paragraph.option_b5,
+        option_c5=paragraph.option_c5,
+        answer5=paragraph.answer5
     )
 
 # @router.post("/check_answer/")
