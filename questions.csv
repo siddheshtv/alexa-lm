@@ -1,51 +1,300 @@
 question_id,question,question_type,age_range,answer,level
-5001,"What's five plus three? A. 7 B. 8 C. 9",math,5-8,option B,easy
-5002,"Count by twos: two, four, six, what comes next? A. 7 B. 8 C. 10",math,5-8,option B,easy
-5003,"If you have ten apples and eat four, how many are left? A. 5 B. 6 C. 7",math,5-8,option B,medium
-5004,"What number comes between six and eight? A. 5 B. 7 C. 9",math,5-8,option B,easy
-5005,"How many sides does a triangle have? A. 2 B. 3 C. 4",math,5-8,option B,easy
-5006,"What's eight minus five? A. 2 B. 3 C. 4",math,5-8,option B,easy
-5007,"What's half of six? A. 2 B. 3 C. 4",math,5-8,option B,easy
-5008,"How many fingers do you have on one hand? A. 4 B. 5 C. 6",math,5-8,option B,easy
-5009,"What's three times two? A. 5 B. 6 C. 7",math,5-8,option B,easy
-5010,"How many hours are in a day? A. 12 B. 24 C. 36",math,5-8,option B,medium
-5011,"What's twelve plus five? A. 15 B. 16 C. 17",math,5-8,option C,medium
-5012,"If a square has four sides, how many sides do two squares have? A. 6 B. 8 C. 10",math,5-8,option B,easy
-5013,"What's twenty minus seven? A. 11 B. 12 C. 13",math,5-8,option C,medium
-5014,"How many cents are in a quarter? A. 20 B. 25 C. 30",math,5-8,option B,medium
-5015,"What's six times four? A. 22 B. 24 C. 26",math,5-8,option B,medium
-5016,"If you have a dollar and spend sixty cents, how much is left? A. 30 cents B. 40 cents C. 50 cents",math,5-8,option B,medium
-5017,"What's forty-eight divided by six? A. 6 B. 7 C. 8",math,5-8,option C,medium
-5018,"How many edges does a cube have? A. 8 B. 10 C. 12",math,5-8,option C,medium
-5019,"What's fifteen plus twenty-six? A. 39 B. 40 C. 41",math,5-8,option C,hard
-5020,"If three pencils cost sixty cents, how much does one pencil cost? A. 15 cents B. 20 cents C. 25 cents",math,5-8,option B,hard
-5021,"What's the square root of sixty-four? A. 6 B. 7 C. 8",math,5-8,option C,easy
-5022,"If x plus five equals twelve, what's x? A. 6 B. 7 C. 8",math,5-8,option B,easy
-5023,"What's fifteen percent of two hundred? A. 25 B. 30 C. 35",math,5-8,option B,easy
-5024,"What's the area of a rectangle with length eight and width five? A. 35 B. 40 C. 45",math,5-8,option B,easy
-5025,"What's the sum of the angles in a triangle? A. 90 degrees B. 180 degrees C. 270 degrees",math,5-8,option B,medium
-5026,"What's two to the power of six? A. 32 B. 64 C. 128",math,5-8,option B,medium
-5027,"What's twenty percent of eighty? A. 14 B. 16 C. 18",math,5-8,option B,easy
-5028,"If five shirts cost sixty dollars, how much do eight shirts cost? A. 86 dollars B. 96 dollars C. 106 dollars",math,5-8,option B,easy
-5029,"What's the greatest common factor of forty-eight and seventy-two? A. 12 B. 18 C. 24",math,5-8,option C,hard
-5030,"What's the probability of rolling an even number on a six-sided die? A. one third B. one half C. two thirds",math,5-8,option B,easy
-5031,"Solve for x: three x plus seven equals twenty-five A. 5 B. 6 C. 7",math,13-15,option B,easy
-5032,"What's the volume of a cube with side length five? A. 100 B. 125 C. 150",math,13-15,option B,hard
-5033,"Simplify: three squared plus four squared, all under a square root A. 4 B. 5 C. 6",math,13-15,option B,hard
-5034,"What's the slope of a line passing through points (2,3) and (4,7)? A. 1 B. 2 C. 3",math,13-15,option B,hard
-5035,"Solve for x: absolute value of x minus three equals seven A. x equals 9 or -3 B. x equals 10 or -4 C. x equals 11 or -5",math,13-15,option B,hard
-5036,"What's the area of a circle with diameter ten? Use 3.14 for pi. A. 68.5 B. 78.5 C. 88.5",math,13-15,option B,hard
-5037,"Factorize: x squared minus nine A. (x+2)(x-2) B. (x+3)(x-3) C. (x+4)(x-4)",math,13-15,option B,hard
-5038,"If f of x equals two x plus three, what's f of four? A. 9 B. 10 C. 11",math,13-15,option C,easy
-5039,"What's the median of the numbers: 3, 7, 8, 9, 11, 15? A. 7.5 B. 8 C. 8.5",math,13-15,option C,easy
-5040,"Simplify: two x squared plus three x minus two x squared plus five x A. 6x B. 7x C. 8x",math,13-15,option C,hard
-6001,"Which word doesn't belong: A) cat, B) dog, C) fish, D) bird?",aptitude,5-8,option C,easy
-6002,"What comes next: circle, square, triangle, what shape? A) rectangle, B) circle, C) pentagon",aptitude,5-8,option B,easy
-6003,"If grass is green, what color is snow? A) blue, B) white, C) gray",aptitude,5-8,option B,easy
-6004,"What's the odd one out: A) apple, B) banana, C) carrot, D) orange?",aptitude,5-8,option C,easy
-6005,"Which is heavier: A) a pound of feathers, B) a pound of rocks, C) They weigh the same?",aptitude,5-8,option C,easy
-6006,"If you're facing north and turn right, which direction are you facing? A) west, B) east, C) south",aptitude,5-8,option B,easy
-6007,"What's the missing letter: A, C, E, G, what letter? A) H, B) I, C) J",aptitude,5-8,option B,easy
-6008,"What's the opposite of hot? A) warm, B) cold, C) cool",aptitude,5-8,option B,easy
-6009,"If 'book' is to 'read', 'food' is to what? A) cook, B) eat, C) buy",aptitude,5-8,option B,easy
-6010,"What month comes before July? A) May, B) June, C) August",aptitude,5-8,option B,easy
+1,How do you spell the word for a baby cat? A. Calf. B. Kitten. C. Puppy.,aptitude,5-8,option B,easy
+2,How do you spell the word for a baby dog? A. Calf. B. Kitten. C. Puppy.,aptitude,5-8,option C,easy
+3,How do you spell the word for a baby cow? A. Calf. B. Kitten. C. Puppy.,aptitude,5-8,option A,easy
+4,Which word is a noun: A. tree B. jump C. happy,aptitude,5-8,option A,easy
+5,Which word is a verb: A. sing B. blue C. cat,aptitude,5-8,option A,easy
+6,Which word is an adjective: A. fast B. book C. jump,aptitude,5-8,option A,easy
+7,What is the opposite of 'hot'? A. Warm B. Cold C. Hotter,aptitude,5-8,option B,easy
+8,What is the opposite of 'up'? A. Down B. Under C. Below,aptitude,5-8,option A,easy
+9,What is another word for 'big'? A. Small B. Tiny C. Large,aptitude,5-8,option C,easy
+10,What is another word for 'small'? A. Huge B. Tiny C. Large,aptitude,5-8,option B,easy
+11,What is another word for 'happy'? A. Sad B. Glad C. Angry,aptitude,5-8,option B,easy
+12,What is another word for 'sad'? A. Unhappy B. Happy C. Joyful,aptitude,5-8,option A,easy
+13,"If the story says, ""The dog ran fast,"" what did the dog do? A. Ran slow B. Ran fast C. Walked fast",aptitude,5-8,option B,easy
+14,"If the story says, ""She has a red ball,"" what colour is the ball? A. Blue B. Yellow C. Red",aptitude,5-8,option C,easy
+15,"If the story says, ""He is tall,"" how is the boy? A. Short B. Tall C. Medium height",aptitude,5-8,option B,easy
+16,What is the plural of 'cat'? A. Cats B. Dog C. Cat,aptitude,5-8,option A,easy
+17,What is the plural of 'dog'? A. Dogs B. Dog C. Cat,aptitude,5-8,option A,easy
+18,What is the plural of 'child'? A. Childs B. Children C. Kids,aptitude,5-8,option B,easy
+19,What is the plural of 'mouse'? A. Mice B. Mouses C. Rats,aptitude,5-8,option A,easy
+20,Which word is a noun: A. school B. run C. quickly,aptitude,5-8,option A,easy
+21,"What number comes next: 4, 5, 6, ___? A. 7. B. 8. C. 9.",aptitude,5-8,option A,easy
+22,"What number comes next: 7, 8, 9, ___? A. 10. B. 11. C. 12.",aptitude,5-8,option A,easy
+23,"If you have Monday, Tuesday, Wednesday, what day comes next? A. Thursday B. Friday C. Saturday",aptitude,5-8,option A,easy
+24,"If you have Friday, Saturday, Sunday, what day comes next? A. Monday B. Tuesday C. Wednesday",aptitude,5-8,option A,easy
+25,Which is different: A. cat B. dog C. carrot D. bird,aptitude,5-8,option C,easy
+26,Which is different: A. apple B. orange C. banana D. car,aptitude,5-8,option D,easy
+27,"If you have three apples and give one away, how many do you have left? A. 2. B. 3. C. 4.",aptitude,5-8,option A,easy
+28,"If you have four pencils and lose two, how many do you have left? A. 2. B. 3. C. 4.",aptitude,5-8,option A,easy
+29,Which one doesn't belong: A. circle B. square C. triangle D. blue,aptitude,5-8,option D,easy
+30,Which one doesn't belong: A. red B. green C. blue D. elephant,aptitude,5-8,option D,easy
+31,"What comes next in the pattern: 1, 3, 5, ___? A. 6. B. 7. C. 8.",aptitude,5-8,option B,easy
+32,"What comes next in the pattern: 2, 4, 6, ___? A. 7. B. 8. C. 9.",aptitude,5-8,option B,easy
+33,"If a clock shows 3:00, what time will it be in one hour? A. 4:00. B. 5:00. C. 6:00.",aptitude,5-8,option A,medium
+34,"If a clock shows 7:00, what time will it be in two hours? A. 8:00. B. 9:00. C. 10:00.",aptitude,5-8,option B,medium
+35,What is the opposite of left? A. Right B. Up C. Down,aptitude,5-8,option A,medium
+36,What is the opposite of right (direction)? A. Left B. Up C. Down,aptitude,5-8,option A,medium
+37,"What comes next: red, blue, red, ___? A. Green B. Red C. Blu",aptitude,5-8,option C,medium
+38,"What comes next: green, yellow, green, ___? A. Blue B. Yellow C. Green",aptitude,5-8,option B,medium
+39,Which one is different: A. table B. chair C. book D. bed,aptitude,5-8,option C,medium
+40,Which one is different: A. cat B. bird C. fish D. pencil,aptitude,5-8,option D,medium
+41,How many days are there in a week? A. 5. B. 6. C. 7.,aptitude,5-8,option C,medium
+42,How many months are there in a year? A. 10. B. 11. C. 12.,aptitude,5-8,option C,medium
+43,What season comes after winter? A. Spring. B. Summer. C. Autumn.,aptitude,5-8,option A,medium
+44,What season comes after summer? A. Winter B. Autumn C. Spring,aptitude,5-8,option B,medium
+45,Which animal is known as the king of the jungle? A. Tiger B. Lion C. Elephant,aptitude,5-8,option B,medium
+46,Which animal is the tallest in the world? A. Elephant B. Giraffe C. Kangaroo,aptitude,5-8,option B,medium
+47,What colour do you get if you mix red and yellow? A. Orange B. Green C. Purple,aptitude,5-8,option A,medium
+48,What colour do you get if you mix blue and yellow? A. Orange B. Green C. Purple,aptitude,5-8,option B,medium
+49,"Name the four seasons. A. Spring, Summer, Autumn, Winter B. Spring, Summer, Fall, Winter C. Spring, Summer, Autumn, Monsoon",aptitude,5-8,option A,medium
+50,How many legs does a spider have? A. 6. B. 8. C. 10.,aptitude,5-8,option B,medium
+51,Which word is a synonym for 'intelligent'? A. Smart B. Dull C. Unaware,aptitude,5-8,option A,medium
+52,Which word is an antonym for 'ancient'? A. Old B. Modern C. Antique,aptitude,5-8,option B,medium
+53,How do you spell the word for a place where you learn? A. Sckool B. Skool C. School,aptitude,5-8,option C,medium
+54,Which word is a noun: A. dance B. quickly C. happiness,aptitude,5-8,option C,medium
+55,Which word is an adjective: A. beautiful B. run C. sings,aptitude,5-8,option A,medium
+56,What is the past tense of 'swim'? A. swims B. swum C. swam,aptitude,5-8,option C,medium
+57,What is the correct plural form of 'goose'? A. gooses B. geese C. goose,aptitude,5-8,option B,medium
+58,Which word is a verb: A. happily B. run C. beautiful,aptitude,5-8,option B,medium
+59,Which sentence is correct? A. They is happy. B. They are happy. C. They am happy.,aptitude,5-8,option B,medium
+60,Which word is spelled correctly? A. Recieve B. Receive C. Recive,aptitude,5-8,option B,medium
+61,Which word is a homophone for 'sea'? A. see B. she C. say,aptitude,5-8,option A,medium
+62,What is the opposite of 'polite'? A. kind B. rude C. gentle,aptitude,5-8,option B,medium
+63,Which word is an adverb: A. quietly B. quiet C. quieter,aptitude,5-8,option A,medium
+64,What is the correct plural form of 'foot'? A. feets B. foots C. feet,aptitude,5-8,option C,medium
+65,Which word means 'to look at something briefly'? A. glance B. stare C. gaze,aptitude,5-8,option A,medium
+66,What is the past tense of 'write'? A. wrote B. writed C. writes,aptitude,5-8,option A,medium
+67,Which sentence is correct? A. She have a car. B. She has a car. C. She are having a car.,aptitude,5-8,option B,medium
+68,What is the correct plural form of 'person'? A. persons B. people C. personses,aptitude,5-8,option B,medium
+69,Which word is an antonym for 'early'? A. late B. prompt C. punctual,aptitude,5-8,option A,medium
+70,Which sentence is correct? A. We was there. B. We were there. C. We is there.,aptitude,5-8,option B,medium
+71,"What comes next in the pattern: 3, 6, 9, ___? A. 10. B. 11. C. 12.",aptitude,5-8,option C,medium
+72,"What comes next in the pattern: 2, 5, 8, ___? A. 9. B. 10. C. 11.",aptitude,5-8,option C,medium
+73,What is 9 times 7? A. 62. B. 63. C. 64.,aptitude,5-8,option B,medium
+74,What is 20 divided by 4? A. 4. B. 5. C. 6.,aptitude,5-8,option B,medium
+75,"If you have 12 oranges and you give 3 away, how many do you have left? A. 8. B. 9. C. 10.",aptitude,5-8,option B,medium
+76,"What is the next number in the sequence: 2, 4, 8, 16, ___? A. 18. B. 20. C. 32.",aptitude,5-8,option C,medium
+77,"If a clock shows 5:00, what time will it be in 4 hours? A. 8:00. B. 9:00 C. 10:00",aptitude,5-8,option C,medium
+78,"If a bus leaves at 7:00 and the journey takes 3 hours, what time will it arrive? A. 9:00. B. 10:00. C. 11:00.",aptitude,5-8,option C,medium
+79,Which shape has 4 equal sides but no right angles? A. Rectangle B. Square C. Rhombus,aptitude,5-8,option C,hard
+80,What is the perimeter of a square with side length 6? A. 24. B. 26. C. 28.,aptitude,5-8,option A,hard
+81,What is the area of a rectangle with length 7 and width 3? A. 20. B. 21. C. 22.,aptitude,5-8,option B,hard
+82,"If you have a triangle with angles of 30°, 60°, and 90°, what type of triangle is it? A. Isosceles B. Right C. Equilateral",aptitude,5-8,option B,hard
+83,What is the value of the Roman numeral 'L'? A. 50. B. 100. C. 500.,aptitude,5-8,option A,hard
+84,What is the value of the Roman numeral 'C'? A. 50. B. 100. C. 150.,aptitude,5-8,option B,hard
+85,How many degrees are in a straight angle? A. 90. B. 180. C. 360.,aptitude,5-8,option B,hard
+86,"What is the next letter in the sequence: X, Y, Z, ___? A. A B. B C. C",aptitude,5-8,option A,hard
+87,Which one does not belong: A. Square B. Triangle C. Pyramid,aptitude,5-8,option C,hard
+88,Which one does not belong: A. Cube B. Circle C. Sphere,aptitude,5-8,option B,hard
+89,How many planets are there in the Solar System? A. 7. B. 8. C. 9.,aptitude,5-8,option B,hard
+90,Which ocean is the smallest? A. Atlantic B. Indian C. Arctic,aptitude,5-8,option C,hard
+91,Which planet is closest to the Sun? A. Venus B. Mercury C. Mars,aptitude,5-8,option B,hard
+92,What is the freezing point of water in Celsius? A. 0°C B. 32°C C. 100°C,aptitude,5-8,option A,hard
+93,Who wrote 'Harry Potter'? A. J.R.R. Tolkien B. J.K. Rowling C. George R.R. Martin,aptitude,5-8,option B,hard
+94,Which is the largest country in the world? A. Canada B. Russia C. China,aptitude,5-8,option B,hard
+95,What is the capital of Italy? A. Rome B. Madrid C. Athen,aptitude,5-8,option A,hard
+96,Which animal is known for its ability to change colors? A. Frog B. Chameleon C. Octopus,aptitude,5-8,option B,hard
+97,What is the largest bird in the world? A. Eagle B. Ostrich C. Penguin,aptitude,5-8,option B,hard
+98,What is the fastest aquatic animal? A. Dolphin B. Shark C. Sailfish,aptitude,5-8,option C,hard
+99,What is the capital of Japan? A. Beijing B. Seoul C. Tokyo,aptitude,5-8,option C,hard
+100,Which word is a synonym for 'complex'? A. Simple B. Intricate C. Easy,aptitude,5-8,option B,hard
+101,Which word is an antonym for 'expand'? A. Contract B. Grow C. Enlarge,aptitude,5-8,option A,hard
+102,How do you spell the word for a belief or view? A. Oponion B. Opinin C. Opinion,aptitude,5-8,option C,hard
+103,Which word is a noun: A. inspiration B. running C. descriptive,aptitude,5-8,option A,hard
+104,Which word is an adjective: A. arrive B. quickly C. beautiful,aptitude,5-8,option C,hard
+105,What is the past tense of 'sing'? A. sung B. singed C. sang,aptitude,5-8,option C,hard
+106,What is the correct plural form of 'cactus'? A. cactuses B. cacti C. cactae,aptitude,5-8,option B,hard
+107,Which word is a verb: A. sleep B. quietly C. blue,aptitude,5-8,option A,hard
+108,Which sentence is correct? A. They was waiting. B. They were waiting. C. They is waiting,aptitude,5-8,option B,hard
+109,Which word is spelled correctly? A. Separete B. Separate C. Seperate,aptitude,5-8,option B,hard
+110,Which word is a homophone for 'pair'? A. pare B. pear C. both,aptitude,5-8,option B,hard
+111,What is the opposite of 'generous'? A. selfish B. kind C. helpful,aptitude,5-8,option A,hard
+112,Which word is an adverb: A. happily B. happy C. happiest,aptitude,5-8,option A,hard
+113,What is the correct plural form of 'analysis'? A. analysises B. analyses C. analyzations,aptitude,5-8,option B,hard
+114,Which word means 'to gain knowledge'? A. teach B. instruct C. learn,aptitude,5-8,option C,hard
+115,What is the past tense of 'go'? A. goed B. gone C. went,aptitude,5-8,option C,hard
+116,Which sentence is correct? A. She have a book. B. She has a book. C. She are having a book.,aptitude,5-8,option B,hard
+117,What is the correct plural form of 'thesis'? A. theses B. thesis' C. thesises,aptitude,5-8,option A,hard
+118,Which word is an antonym for 'optimistic'? A. hopeful B. pessimistic C. positive,aptitude,5-8,option B,hard
+119,Which sentence is correct? A. We was happy. B. We were happy. C. We is happy.,aptitude,5-8,option B,hard
+120,"What comes next in the pattern: 4, 8, 16, ___? A. 20. B. 24. C. 32.",aptitude,5-8,option C,hard
+121,"What comes next in the pattern: 10, 20, 30, ___? A. 35. B. 40. C. 45.",aptitude,5-8,option B,hard
+122,What is 15 times 3? A. 45. B. 50. C. 55.,aptitude,5-8,option A,hard
+123,What is 81 divided by 9? A. 8. B. 9. C. 10.,aptitude,5-8,option B,hard
+124,"If you have 25 books and you donate 7, how many do you have left? A. 17. B. 18. C. 19.",aptitude,5-8,option B,hard
+125,"What is the next number in the sequence: 5, 10, 20, 40, ___? A. 60. B. 70. C. 80.",aptitude,5-8,option C,hard
+126,"If a clock shows 11:00, what time will it be in 5 hours? A. 3:00 B. 4:00 C. 5:00",aptitude,5-8,option B,hard
+127,"If a flight leaves at 10:00 AM and lasts 7 hours, what time will it arrive? A. 4:00 PM B. 5:00 PM C. 6:00 PM",aptitude,5-8,option B,hard
+128,Which shape has 5 sides? A. Pentagon B. Hexagon C. Octagon,aptitude,5-8,option A,hard
+129,"What is the perimeter of a triangle with sides 6, 8, and 10? A. 24. B. 25. C. 26.",aptitude,5-8,option A,hard
+130,What is the area of a square with side length 9? A. 72. B. 81. C. 90.,aptitude,5-8,option B,hard
+131,"If you have a quadrilateral with all equal sides but no right angles, what is it? A. Rectangle B. Rhombus C. Parallelogram",aptitude,5-8,option B,hard
+132,What is the value of the Roman numeral 'D'? A. 100. B. 500. C. 1000.,aptitude,5-8,option B,hard
+133,What is the value of the Roman numeral 'M'? A. 500. B. 1000. C. 1500.,aptitude,5-8,option B,hard
+134,How many degrees are in a full circle? A. 180. B. 270. C. 360.,aptitude,5-8,option C,hard
+135,"What is the next letter in the sequence: L, M, N, ___? A. O B. P C. Q",aptitude,5-8,option A,hard
+136,"What is the next letter in the sequence: T, U, V, ___? A. W B. X C. Y",aptitude,5-8,option A,hard
+137,Which one does not belong: A. Rectangle B. Square C. Cylinder,aptitude,5-8,option C,hard
+138,Which one does not belong: A. Cube B. Sphere C. Pyramid,aptitude,5-8,option B,hard
+139,How many bones are in the human body? A. 206. B. 210. C. 215.,aptitude,5-8,option A,hard
+140,Which ocean is the second largest? A. Atlantic B. Indian C. Arctic,aptitude,5-8,option A,hard
+141,Which planet is known as the Blue Planet? A. Venus B. Earth C. Neptune,aptitude,5-8,option B,hard
+142,What is the chemical symbol for gold? A. Au B. Ag C. Pt,aptitude,5-8,option A,hard
+143,Who wrote 'Pride and Prejudice'? A. Emily Brontë B. Jane Austen C. Mary Shelley,aptitude,5-8,option B,hard
+144,Which is the smallest continent by land area? A. Europe B. Australia C. Antarctica,aptitude,5-8,option B,hard
+145,What is the capital of Canada? A. Toronto B. Ottawa C. Vancouver,aptitude,5-8,option B,hard
+146,Which animal is known for its tusks? A. Elephant B. Rhino C. Hippopotamus,aptitude,5-8,option A,hard
+147,What is the largest fish in the ocean? A. Great White Shark B. Whale Shark C. Blue Whale,aptitude,5-8,option B,hard
+148,What is the fastest bird in the world? A. Eagle B. Peregrine Falcon C. Hawk,aptitude,5-8,option B,hard
+149,What is the capital of Australia? A. Sydney B. Melbourne C. Canberra,aptitude,5-8,option C,hard
+150,What shape has 3 sides? A. Square B. Triangle C. Circle,math,5-8,option B,easy
+151,How many sides does a rectangle have? A. 3. B. 4. C. 5.,math,5-8,option B,easy
+152,Which shape is round? A. Triangle B. Square C. Circle,math,5-8,option C,easy
+153,What shape has 4 equal sides? A. Rectangle B. Square C. Triangle,math,5-8,option B,easy
+154,How many corners does a triangle have? A. 2. B. 3. C. 4.,math,5-8,option B,easy
+155,Which shape has no sides? A. Square B. Triangle C. Circle,math,5-8,option C,easy
+156,How many sides does a hexagon have? A. 5. B. 6. C. 7.,math,5-8,option B,easy
+157,What shape is a standard dice? A. Sphere B. Cube C. Pyramid,math,5-8,option B,easy
+158,How many faces does a cube have? A. 6. B. 8. C. 12.,math,5-8,option A,easy
+159,What shape is a football? A. Cube B. Sphere C. Cone,math,5-8,option B,easy
+160,What is 2 + 2? A. 3. B. 4. C. 5.,math,5-8,option B,easy
+161,What is 7 - 5? A. 1. B. 2. C. 3.,math,5-8,option B,easy
+162,What is 3 x 2? A. 5. B. 6. C. 7.,math,5-8,option B,easy
+163,What is 8 / 2? A. 3. B. 4. C. 5.,math,5-8,option B,easy
+164,What is 9 + 1? A. 9. B. 10. C. 11.,math,5-8,option B,easy
+165,What is 6 - 4? A. 1. B. 2. C. 3.,math,5-8,option B,easy
+166,What is 2 x 5? A. 9. B. 10. C. 11.,math,5-8,option B,easy
+167,What is 15 / 3? A. 4. B. 5. C. 6.,math,5-8,option B,easy
+168,What is 5 + 5? A. 10. B. 11. C. 12.,math,5-8,option A,easy
+169,What is 7 - 3? A. 3. B. 4. C. 5.,math,5-8,option B,easy
+170,What is 4 x 2? A. 6. B. 7. C. 8.,math,5-8,option C,easy
+171,What is 12 / 4? A. 2. B. 3. C. 4.,math,5-8,option C,easy
+172,What is 8 + 2? A. 9. B. 10. C. 11.,math,5-8,option B,easy
+173,What is 9 - 5? A. 3. B. 4. C. 5.,math,5-8,option B,easy
+174,What is 3 x 4? A. 11. B. 12. C. 13.,math,5-8,option B,easy
+175,What is 18 / 3? A. 5. B. 6. C. 7.,math,5-8,option B,easy
+176,What is 6 + 3? A. 8. B. 9. C. 10.,math,5-8,option B,easy
+177,What is 10 - 7? A. 2. B. 3. C. 4.,math,5-8,option B,easy
+178,What is 5 x 2? A. 9. B. 10. C. 11.,math,5-8,option B,easy
+179,What is 2 + 3? A. 4. B. 5. C. 6.,math,5-8,option C,easy
+180,"If you have 3 apples and you get 2 more, how many apples do you have? A. 4. B. 5. C. 6.",math,5-8,option B,easy
+181,Tom has 5 pencils. He gives 2 to Mary. How many pencils does Tom have left? A. 2. B. 3. C. 4.,math,5-8,option B,easy
+182,There are 4 birds on a tree. 3 more birds join them. How many birds are there now? A. 6. B. 7. C. 8.,math,5-8,option B,medium
+183,Sarah has 8 candies. She eats 3 of them. How many candies does she have left? A. 4. B. 5. C. 6,math,5-8,option B,medium
+184,"If a car has 4 wheels, how many wheels do 2 cars have? A. 6. B. 7. C. 8.",math,5-8,option C,medium
+185,There are 10 apples in a basket. You take away 4. How many apples are left? A. 5. B. 6. C. 7.,math,5-8,option A,medium
+186,"If you buy 5 books and each book costs 2 pounds, how much do you spend in total? A. 8. B. 9. C. 10.",math,5-8,option C,medium
+187,A box contains 3 red balls and 2 blue balls. How many balls are there in total? A. 4. B. 5. C. 6.,math,5-8,option B,medium
+188,Lily has 6 balloons. She gives 2 to her friend. How many balloons does Lily have now? A. 3. B. 4. C. 5,math,5-8,option B,medium
+189,"If there are 5 cookies in a jar and you add 3 more, how many cookies are there? A. 7. B. 8. C. 9.",math,5-8,option B,medium
+190,John has 4 toy cars. He buys 2 more. How many toy cars does John have in total? A. 5. B. 6. C. 7.,math,5-8,option B,medium
+191,Anna has 7 flowers. She gives 3 to her mom. How many flowers does she have left? A. 3. B. 4. C. 5,math,5-8,option B,medium
+192,"If you see 8 ducks and 2 fly away, how many ducks are left? A. 5. B. 6. C. 7",math,5-8,option C,medium
+193,Mike has 9 marbles. He loses 4. How many marbles does Mike have left? A. 4. B. 5. C. 6,math,5-8,option B,medium
+194,"There are 3 chairs at a table. If you add 2 more chairs, how many chairs are there? A. 4. B. 5. C. 6",math,5-8,option B,medium
+195,"You have 4 cats, and each cat has 3 toys. How many toys are there in total? A. 10. B. 11. C. 12",math,5-8,option C,medium
+196,Emma has 5 dolls. She buys 3 more. How many dolls does Emma have now? A. 7. B. 8. C. 9,math,5-8,option B,medium
+197,There are 7 fish in a pond. 2 more fish are added. How many fish are there in total? A. 8. B. 9. C. 10,math,5-8,option B,medium
+198,"If you have 10 balloons and you give 3 away, how many balloons do you have left? A. 6. B. 7. C. 8",math,5-8,option C,medium
+199,Lucy has 4 books. She borrows 2 more from the library. How many books does Lucy have now? A. 5. B. 6. C. 7,math,5-8,option B,medium
+200,What is the perimeter of a rectangle with length 5 cm and width 3 cm? A. 15 cm B. 16 cm C. 18 cm,math,5-8,option B,medium
+201,How many faces does a cube have? A. 6. B. 8. C. 12,math,5-8,option A,medium
+202,What is the area of a triangle with base 4 cm and height 5 cm? A. 10 cmÂ² B. 15 cmÂ² C. 20 cmÂ²,math,5-8,option A,medium
+203,What is the volume of a cube with side length 3 cm? A. 9 cmÂ³ B. 18 cmÂ³ C. 27 cmÂ³,math,5-8,option C,medium
+204,How many edges does a hexagon have? A. 5. B. 6. C. 7.,math,5-8,option B,medium
+205,What is the circumference of a circle with radius 7 cm? A. 22 cm B. 33 cm C. 44 cm,math,5-8,option C,medium
+206,What is the area of a rectangle with length 6 cm and width 2 cm? A. 8 cmÂ² B. 12 cmÂ² C. 14 cmÂ²,math,5-8,option B,medium
+207,How many vertices does a pentagon have? A. 4. B. 5. C. 6.,math,5-8,option B,medium
+208,What is the perimeter of a square with side length 4 cm? A. 12 cm B. 14 cm C. 16 cm,math,5-8,option C,medium
+209,What is the area of a circle with radius 3 cm? A. 9Ï€ cmÂ² B. 18Ï€ cmÂ² C. 27Ï€ cmÂ²,math,5-8,option A,medium
+210,What is 15 + 28? A. 43. B. 42. C. 41.,math,5-8,option A,medium
+211,What is 100 - 37? A. 62. B. 63. C. 64,math,5-8,option B,medium
+212,What is 8 x 7? A. 54. B. 56. C. 58.,math,5-8,option B,medium
+213,What is 144 Ã· 12? A. 11. B. 12. C. 13.,math,5-8,option B,medium
+214,What is 25 + 36? A. 60. B. 61. C. 62.,math,5-8,option B,medium
+215,What is 81 - 29? A. 51. B. 52. C. 53.,math,5-8,option B,medium
+216,What is 9 x 9? A. 80. B. 81. C. 82,math,5-8,option B,medium
+217,What is 121 Ã· 11? A. 10. B. 11. C. 12.,math,5-8,option B,medium
+218,What is 45 + 57? A. 101. B. 102. C. 103.,math,5-8,option B,medium
+219,What is 96 - 47? A. 48. B. 49. C. 50,math,5-8,option B,medium
+220,What is 12 x 8? A. 95. B. 96. C. 97.,math,5-8,option B,medium
+221,What is 132 Ã· 11? A. 11 B. 12. C. 13.,math,5-8,option B,medium
+222,What is 67 + 24? A. 90. B. 91. C. 92.,math,5-8,option B,medium
+223,What is 75 - 28? A. 46. B. 47. C. 48.,math,5-8,option B,medium
+224,What is 11 x 11? A. 120. B. 121. C. 122.,math,5-8,option B,medium
+225,What is 144 Ã· 12? A. 11. B. 12. C. 13.,math,5-8,option B,medium
+226,What is 39 + 56? A. 94. B. 95. C. 96.,math,5-8,option B,medium
+227,What is 88 - 37? A. 50. B. 51. C. 52.,math,5-8,option B,medium
+228,What is 14 x 7? A. 97. B. 98. C. 99.,math,5-8,option B,hard
+229,What is 169 Ã· 13? A. 12. B. 13. C. 14.,math,5-8,option B,hard
+230,"If you have 45 candies and you give 12 to your friend, how many candies do you have left? A. 32. B. 33. C. 34.",math,5-8,option B,hard
+231,Sarah has 5 packs of stickers. Each pack has 8 stickers. How many stickers does she have in total? A. 40. B. 41. C. 42.,math,5-8,option C,hard
+232,A rectangle has a length of 7 cm and a width of 4 cm. What is its perimeter? A. 20 cm B. 22 cm C. 24 cm,math,5-8,option B,hard
+233,Tom read 32 pages of his book on Monday and 18 pages on Tuesday. How many pages did he read in total? A. 49. B. 50. C. 51.,math,5-8,option B,hard
+234,A school has 12 classrooms. Each classroom has 25 desks. How many desks are there in the school? A. 300. B. 310. C. 320.,math,5-8,option A,hard
+235,"If a train travels 60 km in an hour, how far will it travel in 3 hours? A. 150 km B. 170 km C. 180 km",math,5-8,option C,hard
+236,"Lucy has 5 times as many marbles as John. If John has 7 marbles, how many marbles does Lucy have? A. 35. B. 36. C. 37.",math,5-8,option A,hard
+237,A garden is in the shape of a square with each side measuring 9 meters. What is the area of the garden? A. 81 mÂ² B. 82 mÂ² C. 83 mÂ²,math,5-8,option A,hard
+238,Emma buys 3 notebooks for Â£2 each and 4 pens for Â£1 each. How much does she spend in total? A. Â£10 B. Â£11 C. Â£12,math,5-8,option A,hard
+239,A box contains 12 red balls and 8 blue balls. What fraction of the balls are blue? A. 2/5 B. 3/5 C. 4/5,math,5-8,option A,hard
+240,"A pizza is cut into 8 equal slices. If you eat 3 slices, what fraction of the pizza do you have left? A. 1/2 B. 5/8 C. 3/8",math,5-8,option B,hard
+241,"In a class of 30 students, 18 are girls. What fraction of the class are boys? A. 2/5 B. 3/10 C. 4/10",math,5-8,option B,hard
+242,A car travels 90 km in 2 hours. What is its average speed? A. 40 km/h B. 45 km/h C. 50 km/h,math,5-8,option A,hard
+243,A shop sold 120 apples in the morning and 80 apples in the afternoon. How many apples were sold in total? A. 180 B. 200 C. 220,math,5-8,option B,hard
+244,"If you buy 4 packs of pencils and each pack contains 10 pencils, how many pencils do you have? A. 30 B. 40 C. 50",math,5-8,option B,hard
+245,A rectangle has a length of 8 cm and a width of 6 cm. What is its area? A. 42 cmÂ² B. 48 cmÂ² C. 54 cmÂ²,math,5-8,option B,hard
+246,John bought 3 books for Â£5 each. How much did he spend in total? A. Â£10 B. Â£15 C. Â£20,math,5-8,option B,hard
+247,"If you have 3 red apples and 2 green apples, what fraction of the apples are red? A. 2/5 B. 3/5 C. 4/5",math,5-8,option C,hard
+248,A cyclist travels 50 km in 2 hours. What is his average speed? A. 20 km/h B. 25 km/h C. 30 km/h,math,5-8,option B,hard
+249,A farmer has 16 cows and 24 sheep. What fraction of the animals are cows? A. 1/2 B. 1/3 C. 2/5,math,5-8,option B,hard
+250,What is the area of a triangle with base 8 cm and height 5 cm? A. 20 cm² B. 30 cm² C. 40 cm²,math,5-8,option B,hard
+251,What is the volume of a sphere with radius 3 cm? A. 36π cm³ B. 27π cm³ C. 4/3π * 27 cm³,math,5-8,option C,hard
+252,What is the circumference of a circle with diameter 10 cm? A. 10π cm B. 20π cm C. 30π cm,math,5-8,option B,hard
+253,How many edges does a dodecahedron have? A. 20 B. 30 C. 40,math,5-8,option B,hard
+254,What is the surface area of a cube with side length 4 cm? A. 64 cm² B. 96 cm² C. 128 cm²,math,5-8,option A,hard
+255,What is the perimeter of a parallelogram with sides 6 cm and 8 cm? A. 24 cm B. 28 cm C. 32 cm,math,5-8,option B,hard
+256,How many faces does an octahedron have? A. 6 B. 8 C. 10,math,5-8,option B,hard
+257,"What is the area of a trapezoid with bases 6 cm and 10 cm, and height 4 cm? A. 32 cm² B. 40 cm² C. 48",math,5-8,option A,hard
+258,What is the volume of a cylinder with radius 4 cm and height 10 cm? A. 160π cm³ B. 170π cm³ C. 180π cm³,math,5-8,option A,hard
+259,What is the sum of the interior angles of a hexagon? A. 540° B. 720° C. 900°,math,5-8,option B,hard
+260,What is 25 + 78? A. 102. B. 103. C. 104.,math,5-8,option C,hard
+261,What is 150 - 47? A. 102. B. 103. C. 104.,math,5-8,option B,hard
+262,What is 12 x 14? A. 168. B. 169. C. 170.,math,5-8,option A,hard
+263,What is 144 ÷ 8? A. 17. B. 18. C. 19.,math,5-8,option B,hard
+264,What is 45 + 57? A. 101. B. 102. C. 103.,math,5-8,option C,hard
+265,What is 180 - 37? A. 142. B. 143. C. 144.,math,5-8,option C,hard
+266,What is 21 x 6? A. 125. B. 126. C. 127.,math,5-8,option B,hard
+267,What is 169 ÷ 13? A. 12. B. 13. C. 14.,math,5-8,option B,hard
+268,What is 67 + 78? A. 144. B. 145. C. 146.,math,5-8,option A,hard
+269,What is 96 - 49? A. 46. B. 47. C. 48.,math,5-8,option C,hard
+270,What is 15 x 9? A. 135. B. 136. C. 137.,math,5-8,option A,hard
+271,What is 182 ÷ 7? A. 25. B. 26. C. 27.,math,5-8,option B,hard
+272,What is 99 + 101? A. 199. B. 200. C. 201.,math,5-8,option B,hard
+273,What is 210 - 45? A. 164. B. 165. C. 166.,math,5-8,option C,hard
+274,What is 18 x 12? A. 215. B. 216. C. 217.,math,5-8,option B,hard
+275,What is 221 ÷ 17? A. 12. B. 13. C. 14.,math,5-8,option A,hard
+276,What is 123 + 78? A. 200. B. 201. C. 202.,math,5-8,option C,hard
+277,What is 250 - 87? A. 162. B. 163. C. 164.,math,5-8,option C,hard
+278,What is 22 x 11? A. 240. B. 241. C. 242.,math,5-8,option B,hard
+279,What is 340 ÷ 10? A. 33. B. 34. C. 35.,math,5-8,option C,hard
+280,A rectangle has a length of 12 cm and a width of 5 cm. What is its perimeter? A. 32 cm B. 34 cm C. 36 cm,math,5-8,option C,hard
+281,Tom bought 5 notebooks for £3 each and 4 pens for £2 each. How much did he spend in total? A. £23. B. £24. C. £25.,math,5-8,option C,hard
+282,Sarah read 42 pages of her book on Monday and 36 pages on Tuesday. How many pages did she read in total? A. 77. B. 78. C. 79.,math,5-8,option B,hard
+283,A car travels 240 km in 3 hours. What is its average speed? A. 70 km/h B. 80 km/h C. 90 km/h,math,5-8,option C,hard
+284,A school has 15 classrooms. Each classroom has 28 desks. How many desks are there in the school? A. 400. B. 420. C. 450.,math,5-8,option B,hard
+285,"If a train travels 75 km in an hour, how far will it travel in 5 hours? A. 350 km B. 375 km C. 400 km",math,5-8,option B,hard
+286,"Lucy has 3 times as many marbles as John. If John has 15 marbles, how many marbles does Lucy have? A. 40. B. 45. C. 50.",math,5-8,option B,hard
+287,A garden is in the shape of a rectangle with length 14 meters and width 8 meters. What is the area of the garden? A. 110 m² B. 112 m² C. 114 m²,math,5-8,option B,hard
+288,Emma buys 4 notebooks for £3 each and 3 pens for £1 each. How much does she spend in total? A. £14. B. £15. C. £16.,math,5-8,option A,hard
+289,A box contains 20 red balls and 15 blue balls. What fraction of the balls are blue? A. 1/3 B. 3/7 C. 4/7,math,5-8,option C,hard
+290,"A pizza is cut into 12 equal slices. If you eat 5 slices, what fraction of the pizza do you have left? A. 5/12 B. 7/12 C. 1/2",math,5-8,option B,hard
+291,"In a class of 40 students, 24 are girls. What fraction of the class are boys? A. 2/5 B. 3/5 C. 1/2",math,5-8,option B,hard
+292,A car travels 150 km in 2 hours. What is its average speed? A. 60 km/h B. 70 km/h C. 75 km/h,math,5-8,option A,hard
+293,A shop sold 200 apples in the morning and 150 apples in the afternoon. How many apples were sold in total? A. 340. B. 350. C. 360.,math,5-8,option C,hard
+294,"If you buy 6 packs of pencils and each pack contains 12 pencils, how many pencils do you have? A. 70. B. 72.",math,5-8,option B,hard
+295,A rectangle has a length of 9 cm and a width of 7 cm. What is its area? A. 61 cm² B. 62 cm² C. 63 cm²,math,5-8,option C,hard
+296,John bought 4 books for £8 each. How much did he spend in total? A. £30 B. £31 C. £32,math,5-8,option C,hard
+297,"If you have 5 red apples and 7 green apples, what fraction of the apples are red? A. 4/12 B. 5/12 C. 6/12",math,5-8,option B,hard
+298,A cyclist travels 90 km in 3 hours. What is his average speed? A. 25 km/h B. 30 km/h C. 35 km/h,math,5-8,option C,hard
+299,A farmer has 18 cows and 32 sheep. What fraction of the animals are cows? A. 3/5 B. 9/25 C. 18/50,math,5-8,option B,hard

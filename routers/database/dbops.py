@@ -215,11 +215,15 @@ async def get_questions(
     if question_type not in ["math", "aptitude"]:
         raise HTTPException(status_code=400, detail="Invalid question type. Must be 'math' or 'aptitude'")
     
+    print(f"Querying with level: {level}, question_type: {question_type}, age_range: {age_range}")
+
+    
     questions = db.query(Question).filter(
         Question.level == level,
         Question.question_type == question_type,
         Question.age_range == age_range
     ).order_by(func.random()).limit(5).all()
+    print(f"Number of questions retrieved: {len(questions)}")
     
     response = QuestionResponse()
     for i, q in enumerate(questions, 1):
